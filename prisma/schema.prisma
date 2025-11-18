@@ -15,3 +15,47 @@ model User {
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
 }
+
+model SampleData {
+  id                              Int       @id @default(autoincrement())
+  sampleCode                      String
+  sampleItemName                  String
+  processingType                  String
+  constructionNote                String
+  color                           String
+  customerName                    String
+
+  customerRequirementWidthPercent   String
+  customerRequirementLengthPercent  String
+  customerRequirementWidth          String
+  requirementWeight                 String
+
+  finishingDate                   DateTime
+  loom                            Int
+  warpingNo                       Int
+  yard                            Int
+
+  afterDryerWidth                 String
+  weavingPPI                      Int
+  sanforizedPPI                   Int
+  ppiPlus                         Int
+
+  dryerSkew                       Float
+  sanfoSkew                       Float
+  afterWashSkew                   Float
+  bowingTestRightHand             Float
+  bowingTestLeftHand              Float
+
+  washWidthPercentage             Float
+  washLengthPercentage            Float
+
+  washShrinkageWidth              String
+  washShrinkagePPI                Int
+
+  processingDetails               String
+  remarks                         String
+
+  createdAt                       DateTime @default(now())
+  updatedAt                       DateTime @updatedAt
+}
+
