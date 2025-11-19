@@ -30,7 +30,7 @@ model SampleData {
   customerRequirementWidth          String
   requirementWeight                 String
 
-  finishingDate                   DateTime
+  finishingDate                   String
   loom                            Int
   warpingNo                       Int
   yard                            Int

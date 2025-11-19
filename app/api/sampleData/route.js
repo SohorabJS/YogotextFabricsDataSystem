@@ -5,15 +5,33 @@ export async function GET(request) {
     const { searchParams } = new URL(request.url)
     const limit = parseInt(searchParams.get("limit") || "50", 10)
     const offset = parseInt(searchParams.get("offset") || "0", 10)
+    const sampleCode = searchParams.get("sampleCode")
+    const sampleItemName = searchParams.get("sampleItemName")
+
+    // Build dynamic filter
+    const where = {}
+    if (sampleCode) {
+      where.sampleCode = {
+        contains: sampleCode,
+        mode: "insensitive", // Case-insensitive search
+      }
+    }
+    if (sampleItemName) {
+      where.sampleItemName = {
+        contains: sampleItemName,
+        mode: "insensitive",
+      }
+    }
 
     const samples = await prisma.sampleData.findMany({
+      where,
       take: limit,
       skip: offset,
       orderBy: { createdAt: "desc" },
     })
-    const total = await prisma.sampleData.count()
+    const total = await prisma.sampleData.count({ where })
 
-    return new Response(JSON.stringify({ data: samples, total, limit, offset }), { status: 200 })
+    return new Response(JSON.stringify({ data: samples, total, limit, offset, filters: { sampleCode, sampleItemName } }), { status: 200 })
   } catch (error) {
     console.error(error)
     return new Response(JSON.stringify({ error: "Error fetching sample data" }), { status: 500 })
@@ -36,7 +54,7 @@ export async function POST(request) {
         customerRequirementLengthPercent: body.customerRequirementLengthPercent,
         customerRequirementWidth: body.customerRequirementWidth,
         requirementWeight: body.requirementWeight,
-        finishingDate: body.finishingDate ? new Date(body.finishingDate) : new Date(),
+        finishingDate: body.finishingDate || "",
         loom: parseInt(body.loom, 10) || 0,
         warpingNo: parseInt(body.warpingNo, 10) || 0,
         yard: parseInt(body.yard, 10) || 0,
