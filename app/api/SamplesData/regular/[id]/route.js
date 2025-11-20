@@ -10,13 +10,13 @@ export async function GET(request, { params }) {
 
     const sample = await prisma.sampleData.findUnique({ where: { id } })
     if (!sample) {
-      return new Response(JSON.stringify({ error: "Sample data not found" }), { status: 404 })
+      return new Response(JSON.stringify({ error: "Regular sample data not found" }), { status: 404 })
     }
 
     return new Response(JSON.stringify(sample), { status: 200 })
   } catch (error) {
     console.error(error)
-    return new Response(JSON.stringify({ error: "Error fetching sample data" }), { status: 500 })
+    return new Response(JSON.stringify({ error: "Error fetching regular sample data" }), { status: 500 })
   }
 }
 
@@ -38,7 +38,7 @@ export async function PUT(request, { params }) {
     return new Response(JSON.stringify(updated), { status: 200 })
   } catch (error) {
     console.error(error)
-    return new Response(JSON.stringify({ error: "Error updating sample data" }), { status: 500 })
+    return new Response(JSON.stringify({ error: "Error updating regular sample data" }), { status: 500 })
   }
 }
 
@@ -60,7 +60,7 @@ export async function PATCH(request, { params }) {
     return new Response(JSON.stringify(updated), { status: 200 })
   } catch (error) {
     console.error(error)
-    return new Response(JSON.stringify({ error: "Error patching sample data" }), { status: 500 })
+    return new Response(JSON.stringify({ error: "Error patching regular sample data" }), { status: 500 })
   }
 }
 
@@ -74,7 +74,7 @@ export async function POST(request, { params }) {
     // Verify parent record exists
     const parentSample = await prisma.sampleData.findUnique({ where: { id: parentId } })
     if (!parentSample) {
-      return new Response(JSON.stringify({ error: "Parent sample data not found" }), { status: 404 })
+      return new Response(JSON.stringify({ error: "Parent regular sample data not found" }), { status: 404 })
     }
 
     const body = await request.json()
@@ -115,7 +115,7 @@ export async function POST(request, { params }) {
     return new Response(JSON.stringify(newSample), { status: 201 })
   } catch (error) {
     console.error(error)
-    return new Response(JSON.stringify({ error: "Error creating sample data", details: error.message }), { status: 500 })
+    return new Response(JSON.stringify({ error: "Error creating regular sample data", details: error.message }), { status: 500 })
   }
 }
 
@@ -127,9 +127,9 @@ export async function DELETE(request, { params }) {
     }
 
     await prisma.sampleData.delete({ where: { id } })
-    return new Response(JSON.stringify({ message: "Sample data deleted successfully" }), { status: 200 })
+    return new Response(JSON.stringify({ message: "Regular sample data deleted successfully" }), { status: 200 })
   } catch (error) {
     console.error(error)
-    return new Response(JSON.stringify({ error: "Error deleting sample data" }), { status: 500 })
+    return new Response(JSON.stringify({ error: "Error deleting regular sample data" }), { status: 500 })
   }
 }

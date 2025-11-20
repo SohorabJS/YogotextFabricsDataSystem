@@ -34,7 +34,7 @@ export async function GET(request) {
     return new Response(JSON.stringify({ data: samples, total, limit, offset, filters: { sampleCode, sampleItemName } }), { status: 200 })
   } catch (error) {
     console.error(error)
-    return new Response(JSON.stringify({ error: "Error fetching sample data" }), { status: 500 })
+    return new Response(JSON.stringify({ error: "Error fetching regular sample data" }), { status: 500 })
   }
 }
 
@@ -79,6 +79,6 @@ export async function POST(request) {
     return new Response(JSON.stringify(newSample), { status: 201 })
   } catch (error) {
     console.error(error)
-    return new Response(JSON.stringify({ error: "Error creating sample data", details: error.message }), { status: 500 })
+    return new Response(JSON.stringify({ error: "Error creating regular sample data", details: error.message }), { status: 500 })
   }
 }
