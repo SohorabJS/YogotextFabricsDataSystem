@@ -23,13 +23,13 @@ export async function GET(request) {
       }
     }
 
-    const samples = await prisma.sampleData.findMany({
+    const samples = await prisma.regularSampleData.findMany({
       where,
       take: limit,
       skip: offset,
       orderBy: { createdAt: "desc" },
     })
-    const total = await prisma.sampleData.count({ where })
+    const total = await prisma.regularSampleData.count({ where })
 
     return new Response(JSON.stringify({ data: samples, total, limit, offset, filters: { sampleCode, sampleItemName } }), { status: 200 })
   } catch (error) {
@@ -42,7 +42,7 @@ export async function POST(request) {
   try {
     const body = await request.json()
 
-    const newSample = await prisma.sampleData.create({
+    const newSample = await prisma.regularSampleData.create({
       data: {
         sampleCode: body.sampleCode,
         sampleItemName: body.sampleItemName,

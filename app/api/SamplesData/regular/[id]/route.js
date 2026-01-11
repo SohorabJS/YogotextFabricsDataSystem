@@ -8,7 +8,7 @@ export async function GET(request, { params }) {
       return new Response(JSON.stringify({ error: "Invalid id" }), { status: 400 })
     }
 
-    const sample = await prisma.sampleData.findUnique({ where: { id } })
+    const sample = await prisma.regularSampleData.findUnique({ where: { id } })
     if (!sample) {
       return new Response(JSON.stringify({ error: "Regular sample data not found" }), { status: 404 })
     }
@@ -30,7 +30,7 @@ export async function PUT(request, { params }) {
     const body = await request.json()
     const updateData = buildUpdateData(body)
 
-    const updated = await prisma.sampleData.update({
+    const updated = await prisma.regularSampleData.update({
       where: { id },
       data: updateData,
     })
@@ -52,7 +52,7 @@ export async function PATCH(request, { params }) {
     const body = await request.json()
     const updateData = buildUpdateData(body)
 
-    const updated = await prisma.sampleData.update({
+    const updated = await prisma.regularSampleData.update({
       where: { id },
       data: updateData,
     })
@@ -72,13 +72,13 @@ export async function POST(request, { params }) {
     }
 
     // Verify parent record exists
-    const parentSample = await prisma.sampleData.findUnique({ where: { id: parentId } })
+    const parentSample = await prisma.regularSampleData.findUnique({ where: { id: parentId } })
     if (!parentSample) {
       return new Response(JSON.stringify({ error: "Parent regular sample data not found" }), { status: 404 })
     }
 
     const body = await request.json()
-    const newSample = await prisma.sampleData.create({
+    const newSample = await prisma.regularSampleData.create({
       data: {
         sampleCode: body.sampleCode,
         sampleItemName: body.sampleItemName,
@@ -126,7 +126,7 @@ export async function DELETE(request, { params }) {
       return new Response(JSON.stringify({ error: "Invalid id" }), { status: 400 })
     }
 
-    await prisma.sampleData.delete({ where: { id } })
+    await prisma.regularSampleData.delete({ where: { id } })
     return new Response(JSON.stringify({ message: "Regular sample data deleted successfully" }), { status: 200 })
   } catch (error) {
     console.error(error)

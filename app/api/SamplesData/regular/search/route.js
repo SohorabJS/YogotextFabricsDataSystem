@@ -32,14 +32,14 @@ export async function GET(request) {
     
     console.log("Where filter:", JSON.stringify(where, null, 2))
 
-    const samples = await prisma.sampleData.findMany({
+    const samples = await prisma.regularSampleData.findMany({
       where,
       take: limit,
       skip: offset,
       orderBy: { createdAt: "desc" },
     })
 
-    const total = await prisma.sampleData.count({ where })
+    const total = await prisma.regularSampleData.count({ where })
 
     console.log("Found samples:", total)
 

@@ -27,6 +27,9 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.0.0",
     "@prisma/client": "^7.0.0",
+    "bcryptjs": "^2.4.3",
+    "mongodb": "^7.0.0",
+    "mongoose": "^7.6.1",
     "next": "^16.0.3",
     "prisma": "^7.0.0",
     "react": "^19.2.0",
