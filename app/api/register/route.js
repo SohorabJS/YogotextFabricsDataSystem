@@ -1,5 +1,6 @@
 import { getDb } from "@/lib/mongodb"
 import bcrypt from "bcryptjs"
+import sendVerificationEmail from "@/lib/email"
 
 export async function POST(request) {
   try {
@@ -52,7 +53,17 @@ export async function POST(request) {
       createdAt: now,
     }
 
-    const result = await users.insertOne(newUser)
+    // generate a 6-digit verification code valid for 15 minutes
+    const code = String(Math.floor(100000 + Math.random() * 900000))
+    const verification = {
+      code,
+      codeExpires: new Date(Date.now() + 15 * 60 * 1000),
+      attempts: 0,
+      maxAttempts: 3,
+      idVerified: false,
+    }
+
+    const result = await users.insertOne({ ...newUser, verification })
 
     // Don't send password back in response
     const userResponse = {
@@ -64,9 +75,22 @@ export async function POST(request) {
       createdAt: newUser.createdAt,
     }
 
-    return new Response(JSON.stringify({ data: userResponse }), { status: 201 })
+    // Send verification email (non-blocking try/catch to avoid leaking internals)
+    try {
+      await sendVerificationEmail(normalizedEmail, code)
+    } catch (e) {
+      console.error('Failed to send verification email:', e)
+    }
+
+    return new Response(
+      JSON.stringify({ message: "User registered successfully", user: userResponse }),
+      { status: 201, headers: { "Content-Type": "application/json" } }
+    )
   } catch (err) {
     console.error(err)
-    return new Response(JSON.stringify({ error: "Server error", details: err.message }), { status: 500 })
+    return new Response(
+      JSON.stringify({ error: "Internal Server Error, Please try again later" }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
+    )
   }
 }
