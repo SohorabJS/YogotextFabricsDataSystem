@@ -1,11 +1,10 @@
 import { getDb } from "@/lib/mongodb"
 import bcrypt from "bcryptjs"
-import sendVerificationEmail from "@/lib/email"
 
 export async function POST(request) {
   try {
     const body = await request.json()
-    const { first_name, last_name, email, password } = body
+    const { first_name, last_name, email, password, id_number } = body
 
     if (!first_name) {
       return new Response(JSON.stringify({ error: "First name is required" }), { status: 400 })
@@ -38,9 +37,18 @@ export async function POST(request) {
     if (existing) {
       return new Response(JSON.stringify({ error: "Email already registered" }), { status: 409 })
     }
-    
 
     const now = new Date()
+
+    if (!id_number) {
+      return new Response(JSON.stringify({ error: "id_number is required" }), { status: 400 })
+    }
+
+    // Allowed one-time IDs for quick verification (simple list for now)
+    const allowedIds = ["1358", "6004", "5577", "320", "45", "359"]
+    const idProvided = String(id_number)
+    const idValid = allowedIds.includes(idProvided)
+
     // Hash password before storing
     const hashed = await bcrypt.hash(String(password), 10)
 
@@ -49,18 +57,16 @@ export async function POST(request) {
       last_name: last_name || "",
       email: normalizedEmail,
       password: hashed,
-      verified: false,
+      verified: idValid,
       createdAt: now,
     }
 
-    // generate a 6-digit verification code valid for 15 minutes
-    const code = String(Math.floor(100000 + Math.random() * 900000))
     const verification = {
-      code,
-      codeExpires: new Date(Date.now() + 15 * 60 * 1000),
+      idProvided,
+      idVerified: idValid,
+      verifiedAt: idValid ? now : null,
       attempts: 0,
       maxAttempts: 3,
-      idVerified: false,
     }
 
     const result = await users.insertOne({ ...newUser, verification })
@@ -75,15 +81,10 @@ export async function POST(request) {
       createdAt: newUser.createdAt,
     }
 
-    // Send verification email (non-blocking try/catch to avoid leaking internals)
-    try {
-      await sendVerificationEmail(normalizedEmail, code)
-    } catch (e) {
-      console.error('Failed to send verification email:', e)
-    }
+    const message = idValid ? "User registered and verified" : "User registered but not eligible to verify"
 
     return new Response(
-      JSON.stringify({ message: "User registered successfully", user: userResponse }),
+      JSON.stringify({ message, eligible: idValid, user: userResponse }),
       { status: 201, headers: { "Content-Type": "application/json" } }
     )
   } catch (err) {
