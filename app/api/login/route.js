@@ -1,6 +1,7 @@
 import { getDb } from "@/lib/mongodb"
 import bcrypt from "bcryptjs"
-import { signToken } from "@/lib/jwt"
+import { signAccessToken, signRefreshToken } from "@/lib/jwt"
+import { ObjectId } from 'mongodb'
 
 export async function POST(request) {
   try {
@@ -34,15 +35,21 @@ export async function POST(request) {
       createdAt: user.createdAt,
     }
 
-    // create JWT payload with minimal identifying info
-    const token = signToken({ userId: String(user._id), email: user.email, verified: user.verified })
+    // create access + refresh tokens
+    const accessToken = signAccessToken({ userId: String(user._id), email: user.email, verified: user.verified })
+    const refreshToken = signRefreshToken({ userId: String(user._id) })
 
-    // set httpOnly cookie
-    const maxAge = 60 * 60 * 2 // 2 hours in seconds
+    // store refresh token on user record for revocation/rotation
+    await getDb().then(db => db.collection('users').updateOne({ _id: new ObjectId(user._id) }, { $set: { refreshToken } }))
+
+    // set httpOnly cookies
+    const accessMaxAge = 15 * 60 // 15 minutes
+    const refreshMaxAge = 7 * 24 * 60 * 60 // 7 days
     const secure = process.env.NODE_ENV === 'production'
-    const cookie = `token=${token}; HttpOnly; Path=/; Max-Age=${maxAge}; SameSite=Lax${secure ? '; Secure' : ''}`
+    const accessCookie = `accessToken=${accessToken}; HttpOnly; Path=/; Max-Age=${accessMaxAge}; SameSite=Lax${secure ? '; Secure' : ''}`
+    const refreshCookie = `refreshToken=${refreshToken}; HttpOnly; Path=/; Max-Age=${refreshMaxAge}; SameSite=Lax${secure ? '; Secure' : ''}`
 
-    return new Response(JSON.stringify({ message: 'Login successful', user: userResponse, token }), { status: 200, headers: { 'Content-Type': 'application/json', 'Set-Cookie': cookie } })
+    return new Response(JSON.stringify({ message: 'Login successful', user: userResponse }), { status: 200, headers: { 'Content-Type': 'application/json', 'Set-Cookie': [accessCookie, refreshCookie] } })
   } catch (err) {
     console.error(err)
     return new Response(JSON.stringify({ error: 'Internal Server Error' }), { status: 500, headers: { 'Content-Type': 'application/json' } })

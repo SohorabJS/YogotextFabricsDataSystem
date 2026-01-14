@@ -8,7 +8,7 @@ export async function GET(request) {
     let token = null
     if (auth.startsWith('Bearer ')) token = auth.slice(7)
     else {
-      const m = cookie.match(/(?:^|; )token=([^;]+)/)
+      const m = cookie.match(/(?:^|; )accessToken=([^;]+)/)
       if (m) token = decodeURIComponent(m[1])
     }
 
@@ -18,7 +18,7 @@ export async function GET(request) {
 
     let payload
     try {
-      payload = verifyToken(token)
+      payload = verifyAccessToken(token)
     } catch (e) {
       return new Response(JSON.stringify({ error: 'Invalid or expired token' }), { status: 401, headers: { 'Content-Type': 'application/json' } })
     }
