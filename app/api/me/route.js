@@ -18,7 +18,7 @@ export async function GET(request) {
 
     let payload
     try {
-      payload = verifyAccessToken(token)
+      payload = verifyToken(token)
     } catch (e) {
       return new Response(JSON.stringify({ error: 'Invalid or expired token' }), { status: 401, headers: { 'Content-Type': 'application/json' } })
     }
@@ -36,6 +36,7 @@ export async function GET(request) {
       first_name: user.first_name,
       last_name: user.last_name,
       email: user.email,
+      id_number: user.id_number,
       verified: user.verified,
       createdAt: user.createdAt,
     }
@@ -46,5 +47,3 @@ export async function GET(request) {
     return new Response(JSON.stringify({ error: 'Internal Server Error' }), { status: 500, headers: { 'Content-Type': 'application/json' } })
   }
 }
-
-export default GET
