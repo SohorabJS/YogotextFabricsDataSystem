@@ -42,11 +42,11 @@ export default function Sidebar({ isOpen, onClose }) {
 
       {/* Sidebar */}
       <aside
-        className={`fixed md:sticky md:top-0 left-0 top-0 z-40 w-64 h-screen md:h-screen bg-gray-900 text-white transform transition-transform duration-300 md:translate-x-0 md:block pt-20 md:pt-0 overflow-y-auto ${
+        className={`fixed md:top-0 left-0 top-0 z-40 w-64 h-screen md:h-screen bg-gray-900 text-white transform transition-transform duration-300 md:translate-x-0 md:block pt-20 md:pt-0 overflow-y-auto ${
           isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
         }`}
       >
-        {/* Close button for mobile */}
+        {/* Close button for mobile */} 
         <button
           className="absolute top-4 right-4 md:hidden"
           onClick={onClose}
@@ -96,7 +96,7 @@ export default function Sidebar({ isOpen, onClose }) {
                 key={item.href}
                 href={item.href}
                 onClick={onClose}
-                className={`block px-4 py-3 rounded-lg transition ${
+                className={`block px-0.5 py-0.5 rounded-lg transition ${
                   isActive
                     ? 'bg-blue-600 text-white font-semibold'
                     : 'text-gray-300 hover:bg-gray-800 hover:text-white'

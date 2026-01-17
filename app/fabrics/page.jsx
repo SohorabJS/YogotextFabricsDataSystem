@@ -1,4 +1,5 @@
 import DashboardLayout from '@/components/DashboardLayout';
+import SampleMenu from '@/components/SampleMenu';
 
 export const metadata = {
   title: 'Fabrics Management - YOGOTEX FABRICS',
@@ -14,11 +15,13 @@ export default function FabricsPage() {
           <p className="text-gray-600 mt-2">Manage your fabric inventory and related data</p>
         </div>
 
-        <div className="bg-white rounded-lg shadow p-8 border border-gray-100">
-          <div className="text-center text-gray-500 py-12">
-            <p className="text-lg">📦 Fabrics Management Module</p>
-            <p className="text-sm mt-2">Content will be added here</p>
+        <div className="bg-white rounded-lg shadow p-6 border border-gray-100">
+          <div className="mb-4">
+            <h2 className="text-xl font-semibold text-black">Sample Data</h2>
+            <p className="text-sm text-gray-500 mt-1">Browse different sample types and search records</p>
           </div>
+
+          <SampleMenu />
         </div>
       </div>
     </DashboardLayout>
