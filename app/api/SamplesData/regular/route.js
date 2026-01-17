@@ -1,84 +1,45 @@
-import prisma from "@/lib/prisma"
+import { regularSampleController } from "./regularSample.controller.js"
 
-export async function GET(request) {
-  try {
-    const { searchParams } = new URL(request.url)
-    const limit = parseInt(searchParams.get("limit") || "50", 10)
-    const offset = parseInt(searchParams.get("offset") || "0", 10)
-    const sampleCode = searchParams.get("sampleCode")
-    const sampleItemName = searchParams.get("sampleItemName")
-
-    // Build dynamic filter
-    const where = {}
-    if (sampleCode) {
-      where.sampleCode = {
-        contains: sampleCode,
-        mode: "insensitive", // Case-insensitive search
-      }
-    }
-    if (sampleItemName) {
-      where.sampleItemName = {
-        contains: sampleItemName,
-        mode: "insensitive",
-      }
-    }
-
-    const samples = await prisma.regularSampleData.findMany({
-      where,
-      take: limit,
-      skip: offset,
-      orderBy: { createdAt: "desc" },
-    })
-    const total = await prisma.regularSampleData.count({ where })
-
-    return new Response(JSON.stringify({ data: samples, total, limit, offset, filters: { sampleCode, sampleItemName } }), { status: 200 })
-  } catch (error) {
-    console.error(error)
-    return new Response(JSON.stringify({ error: "Error fetching regular sample data" }), { status: 500 })
+export async function GET(req, { params }) {
+  const { searchParams } = new URL(req.url)
+  
+  // If there's an id in params, it means we're fetching a specific sample
+  if (params?.id) {
+    return regularSampleController.getSampleById(req, { params })
   }
+
+  // Check for search parameters
+  const sampleCode = searchParams.get("code")
+  const customerName = searchParams.get("customer")
+
+  if (sampleCode) {
+    return regularSampleController.searchBySampleCode(req)
+  }
+
+  if (customerName) {
+    return regularSampleController.getSamplesByCustomer(req)
+  }
+
+  // Default: get all samples with pagination and filters
+  return regularSampleController.getAllSamples(req)
 }
 
-export async function POST(request) {
-  try {
-    const body = await request.json()
+export async function POST(req) {
+  // Create a new sample
+  return regularSampleController.createSample(req)
+}
 
-    const newSample = await prisma.regularSampleData.create({
-      data: {
-        sampleCode: body.sampleCode,
-        sampleItemName: body.sampleItemName,
-        processingType: body.processingType,
-        constructionNote: body.constructionNote,
-        color: body.color,
-        customerName: body.customerName,
-        customerRequirementWidthPercent: body.customerRequirementWidthPercent,
-        customerRequirementLengthPercent: body.customerRequirementLengthPercent,
-        customerRequirementWidth: body.customerRequirementWidth,
-        requirementWeight: body.requirementWeight,
-        finishingDate: body.finishingDate || "",
-        loom: parseInt(body.loom, 10) || 0,
-        warpingNo: parseInt(body.warpingNo, 10) || 0,
-        yard: parseInt(body.yard, 10) || 0,
-        afterDryerWidth: body.afterDryerWidth,
-        weavingPPI: parseInt(body.weavingPPI, 10) || 0,
-        sanforizedPPI: parseInt(body.sanforizedPPI, 10) || 0,
-        ppiPlus: parseInt(body.ppiPlus, 10) || 0,
-        dryerSkew: parseFloat(body.dryerSkew) || 0.0,
-        sanfoSkew: parseFloat(body.sanfoSkew) || 0.0,
-        afterWashSkew: parseFloat(body.afterWashSkew) || 0.0,
-        bowingTestRightHand: parseFloat(body.bowingTestRightHand) || 0.0,
-        bowingTestLeftHand: parseFloat(body.bowingTestLeftHand) || 0.0,
-        washWidthPercentage: parseFloat(body.washWidthPercentage) || 0.0,
-        washLengthPercentage: parseFloat(body.washLengthPercentage) || 0.0,
-        washShrinkageWidth: body.washShrinkageWidth,
-        washShrinkagePPI: parseInt(body.washShrinkagePPI, 10) || 0,
-        processingDetails: body.processingDetails,
-        remarks: body.remarks,
-      },
-    })
+export async function PUT(req, { params }) {
+  // Full update of a sample
+  return regularSampleController.updateSample(req, { params })
+}
 
-    return new Response(JSON.stringify(newSample), { status: 201 })
-  } catch (error) {
-    console.error(error)
-    return new Response(JSON.stringify({ error: "Error creating regular sample data", details: error.message }), { status: 500 })
-  }
+export async function PATCH(req, { params }) {
+  // Partial update (edit specific fields) of a sample
+  return regularSampleController.partialUpdateSample(req, { params })
+}
+
+export async function DELETE(req, { params }) {
+  // Delete a sample
+  return regularSampleController.deleteSample(req, { params })
 }

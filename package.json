@@ -10,7 +10,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node scripts/seedAll.js",
+    "seed:regular": "node scripts/seedRegularSamples.js",
+    "seed:heat": "node scripts/seedHeatSettingSamples.js",
+    "seed:padding": "node scripts/seedPaddingSamples.js",
+    "seed:tversion": "node scripts/seedTVersionSamples.js",
+    "seed:masterdev": "node scripts/seedMasterSongDevelopmentSamples.js"
   },
   "repository": {
     "type": "git",
