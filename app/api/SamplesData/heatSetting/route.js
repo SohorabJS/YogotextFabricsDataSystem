@@ -1,11 +1,11 @@
-import { regularSampleController } from "./regularSample.controller.js"
+import { heatSettingSampleController } from "./heatSettingSample.controller.js"
 
 export async function GET(req, { params }) {
   const { searchParams } = new URL(req.url)
   
   // If there's an id in params, it means we're fetching a specific sample
   if (params?.id) {
-    return regularSampleController.getSampleById(req, { params })
+    return heatSettingSampleController.getSampleById(req, { params })
   }
 
   // Check for search parameters
@@ -14,37 +14,37 @@ export async function GET(req, { params }) {
   const customerName = searchParams.get("customerName")
 
   if (sampleCode) {
-    return regularSampleController.searchBySampleCode(req)
+    return heatSettingSampleController.searchBySampleCode(req)
   }
 
   if (sampleItemCode) {
-    return regularSampleController.searchBySampleItemCode(req)
+    return heatSettingSampleController.searchBySampleItemCode(req)
   }
 
   if (customerName) {
-    return regularSampleController.getSamplesByCustomer(req)
+    return heatSettingSampleController.getSamplesByCustomer(req)
   }
 
   // Default: get all samples with pagination and filters
-  return regularSampleController.getAllSamples(req)
+  return heatSettingSampleController.getAllSamples(req)
 }
 
 export async function POST(req) {
   // Create a new sample
-  return regularSampleController.createSample(req)
+  return heatSettingSampleController.createSample(req)
 }
 
 export async function PUT(req, { params }) {
   // Full update of a sample
-  return regularSampleController.updateSample(req, { params })
+  return heatSettingSampleController.updateSample(req, { params })
 }
 
 export async function PATCH(req, { params }) {
   // Partial update (edit specific fields) of a sample
-  return regularSampleController.partialUpdateSample(req, { params })
+  return heatSettingSampleController.partialUpdateSample(req, { params })
 }
 
 export async function DELETE(req, { params }) {
   // Delete a sample
-  return regularSampleController.deleteSample(req, { params })
+  return heatSettingSampleController.deleteSample(req, { params })
 }

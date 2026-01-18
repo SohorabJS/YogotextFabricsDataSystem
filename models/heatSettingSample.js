@@ -11,12 +11,12 @@ const heatSettingSampleSchema = new mongoose.Schema(
       trim: true,
     },
 
-    sampleName: {
+    sampleItemCode: {
       type: String,
       trim: true,
     },
 
-    warpCount: {
+    construction: {
       type: String,
     },
 
@@ -40,7 +40,7 @@ const heatSettingSampleSchema = new mongoose.Schema(
       type: String,
     },
 
-    requiredWeight: {
+    weightBW: {
       type: String,
     },
 
@@ -98,7 +98,7 @@ const heatSettingSampleSchema = new mongoose.Schema(
       type: Number,
     },
 
-    afterShrinkagePPIPlus: {
+    ppiPlus: {
       type: Number,
     },
 
@@ -131,13 +131,13 @@ const heatSettingSampleSchema = new mongoose.Schema(
     },
 
     afterWashPPI: {
-      type: Number,
+      type: String,
     },
 
     // =========================
     // 5. MACHINE & HEAT DETAILS
     // =========================
-    burnerCut: {
+    burnerQ: {
       type: String,
     },
 
@@ -156,10 +156,6 @@ const heatSettingSampleSchema = new mongoose.Schema(
     // =========================
     // 6. DATES & NOTES
     // =========================
-    sampleIssues: {
-      type: String,
-    },
-
     sampleIssueDate: {
       type: Date,
     },

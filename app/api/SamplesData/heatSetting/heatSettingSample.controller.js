@@ -1,8 +1,8 @@
-import { regularSampleService } from "./regularSample.service.js"
-import { regularSampleValidation } from "./regularSample.validation.js"
+import { heatSettingSampleService } from "./heatSettingSample.service.js"
+import { heatSettingSampleValidation } from "./heatSettingSample.validation.js"
 import { connectMongoose } from "@/lib/mongoose.js"
 
-export const regularSampleController = {
+export const heatSettingSampleController = {
   // CREATE a new sample
   async createSample(req) {
     try {
@@ -11,7 +11,7 @@ export const regularSampleController = {
       const body = await req.json()
       
       // Validate input
-      const validation = regularSampleValidation.validateCreateSample(body)
+      const validation = heatSettingSampleValidation.validateCreateSample(body)
       if (!validation.isValid) {
         return new Response(
           JSON.stringify({
@@ -23,7 +23,7 @@ export const regularSampleController = {
         )
       }
 
-      const result = await regularSampleService.createSample(body)
+      const result = await heatSettingSampleService.createSample(body)
 
       if (!result.success) {
         return new Response(
@@ -67,7 +67,7 @@ export const regularSampleController = {
       }
 
       // Validate query params
-      const validation = regularSampleValidation.validateQueryParams(query)
+      const validation = heatSettingSampleValidation.validateQueryParams(query)
       if (!validation.isValid) {
         return new Response(
           JSON.stringify({
@@ -79,7 +79,7 @@ export const regularSampleController = {
         )
       }
 
-      const result = await regularSampleService.getAllSamples(query)
+      const result = await heatSettingSampleService.getAllSamples(query)
 
       return new Response(
         JSON.stringify(result),
@@ -115,7 +115,7 @@ export const regularSampleController = {
         )
       }
 
-      const result = await regularSampleService.getSampleById(id)
+      const result = await heatSettingSampleService.getSampleById(id)
 
       const status = result.success ? 200 : 404
       return new Response(
@@ -154,7 +154,7 @@ export const regularSampleController = {
       }
 
       // Validate input
-      const validation = regularSampleValidation.validateUpdateSample(body)
+      const validation = heatSettingSampleValidation.validateUpdateSample(body)
       if (!validation.isValid) {
         return new Response(
           JSON.stringify({
@@ -166,7 +166,7 @@ export const regularSampleController = {
         )
       }
 
-      const result = await regularSampleService.updateSample(id, body)
+      const result = await heatSettingSampleService.updateSample(id, body)
 
       const status = result.success ? 200 : 404
       return new Response(
@@ -205,7 +205,7 @@ export const regularSampleController = {
       }
 
       // Validate input (uses same validation as update)
-      const validation = regularSampleValidation.validateUpdateSample(body)
+      const validation = heatSettingSampleValidation.validateUpdateSample(body)
       if (!validation.isValid) {
         return new Response(
           JSON.stringify({
@@ -217,7 +217,7 @@ export const regularSampleController = {
         )
       }
 
-      const result = await regularSampleService.partialUpdateSample(id, body)
+      const result = await heatSettingSampleService.partialUpdateSample(id, body)
 
       const status = result.success ? 200 : 404
       return new Response(
@@ -254,7 +254,7 @@ export const regularSampleController = {
         )
       }
 
-      const result = await regularSampleService.deleteSample(id)
+      const result = await heatSettingSampleService.deleteSample(id)
 
       const status = result.success ? 200 : 404
       return new Response(
@@ -292,7 +292,7 @@ export const regularSampleController = {
         )
       }
 
-      const result = await regularSampleService.searchBySampleCode(sampleCode)
+      const result = await heatSettingSampleService.searchBySampleCode(sampleCode)
 
       const status = result.success ? 200 : 404
       return new Response(
@@ -330,7 +330,7 @@ export const regularSampleController = {
         )
       }
 
-      const result = await regularSampleService.searchBySampleItemCode(sampleItemCode)
+      const result = await heatSettingSampleService.searchBySampleItemCode(sampleItemCode)
 
       const status = result.success ? 200 : 404
       return new Response(
@@ -368,7 +368,7 @@ export const regularSampleController = {
         )
       }
 
-      const result = await regularSampleService.getSamplesByCustomer(customerName)
+      const result = await heatSettingSampleService.getSamplesByCustomer(customerName)
 
       return new Response(
         JSON.stringify(result),

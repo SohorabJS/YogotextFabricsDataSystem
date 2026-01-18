@@ -13,7 +13,7 @@ export default function HeatSettingPage() {
         </div>
 
         <div className="bg-white rounded-lg shadow p-6 border text-black">
-          <SampleSearch apiPath="/api/SamplesData/heat-setting" title="Heat Setting Samples" />
+          <SampleSearch apiPath="/api/SamplesData/heatSetting" title="Heat Setting Samples" />
         </div>
       </div>
     </DashboardLayout>

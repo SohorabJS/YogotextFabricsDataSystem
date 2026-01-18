@@ -1,11 +1,11 @@
-import RegularSample from "@/models/regularSample.js"
+import HeatSettingSample from "@/models/heatSettingSample.js"
 import mongoose from "mongoose"
 
-export const regularSampleService = {
-  // CREATE a new regular sample
+export const heatSettingSampleService = {
+  // CREATE a new heat setting sample
   async createSample(sampleData) {
     try {
-      const newSample = new RegularSample(sampleData)
+      const newSample = new HeatSettingSample(sampleData)
       const savedSample = await newSample.save()
       return {
         success: true,
@@ -21,7 +21,7 @@ export const regularSampleService = {
     }
   },
 
-  // READ all regular samples with pagination and filtering
+  // READ all heat setting samples with pagination and filtering
   async getAllSamples(query = {}) {
     try {
       const { 
@@ -48,12 +48,12 @@ export const regularSampleService = {
       const skip = (pageNum - 1) * limitNum
 
       // Fetch samples and total count
-      const samples = await RegularSample.find(filter)
+      const samples = await HeatSettingSample.find(filter)
         .sort({ [sortBy]: sortOrder })
         .skip(skip)
         .limit(limitNum)
 
-      const totalCount = await RegularSample.countDocuments(filter)
+      const totalCount = await HeatSettingSample.countDocuments(filter)
       const totalPages = Math.ceil(totalCount / limitNum)
 
       return {
@@ -88,7 +88,7 @@ export const regularSampleService = {
         }
       }
 
-      const sample = await RegularSample.findById(id)
+      const sample = await HeatSettingSample.findById(id)
       if (!sample) {
         return {
           success: false,
@@ -122,7 +122,7 @@ export const regularSampleService = {
         }
       }
 
-      const updatedSample = await RegularSample.findByIdAndUpdate(
+      const updatedSample = await HeatSettingSample.findByIdAndUpdate(
         id,
         updateData,
         { new: true, runValidators: true }
@@ -169,7 +169,7 @@ export const regularSampleService = {
         }
       }
 
-      const updatedSample = await RegularSample.findByIdAndUpdate(
+      const updatedSample = await HeatSettingSample.findByIdAndUpdate(
         id,
         { $set: filteredData },
         { new: true, runValidators: true }
@@ -208,7 +208,7 @@ export const regularSampleService = {
         }
       }
 
-      const deletedSample = await RegularSample.findByIdAndDelete(id)
+      const deletedSample = await HeatSettingSample.findByIdAndDelete(id)
 
       if (!deletedSample) {
         return {
@@ -235,7 +235,7 @@ export const regularSampleService = {
   // SEARCH by sample code - returns ALL matching samples
   async searchBySampleCode(sampleCode) {
     try {
-      const samples = await RegularSample.find({
+      const samples = await HeatSettingSample.find({
         sampleCode: { $regex: sampleCode, $options: "i" }
       }).sort({ createdAt: -1 })
 
@@ -265,7 +265,7 @@ export const regularSampleService = {
   // SEARCH by sample item code
   async searchBySampleItemCode(sampleItemCode) {
     try {
-      const samples = await RegularSample.find({
+      const samples = await HeatSettingSample.find({
         sampleItemCode: { $regex: sampleItemCode, $options: "i" }
       }).sort({ createdAt: -1 })
 
@@ -295,7 +295,7 @@ export const regularSampleService = {
   // GET samples by customer name
   async getSamplesByCustomer(customerName) {
     try {
-      const samples = await RegularSample.find({
+      const samples = await HeatSettingSample.find({
         customerName: { $regex: customerName, $options: "i" }
       }).sort({ createdAt: -1 })
 
