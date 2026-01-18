@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --navbar-height: 72px;
+  --content-bg: #f3f4f6;
 }
 
 @theme inline {
@@ -20,7 +22,31 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--content-bg);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* App layout helpers */
+.app-main-wrapper {
+  height: calc(100vh - var(--navbar-height));
+  display: flex;
+  overflow: hidden;
+}
+
+.content-scrollable {
+  flex: 1 1 0%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Ensure the fixed background effect behind scrolling content */
+.content-bg-fixed {
+  position: fixed;
+  top: var(--navbar-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--content-bg);
+  z-index: 0;
 }

@@ -42,9 +42,10 @@ export default function Sidebar({ isOpen, onClose }) {
 
       {/* Sidebar */}
       <aside
-        className={`fixed md:top-0 left-0 top-0 z-40 w-64 h-screen md:h-screen bg-gray-900 text-white transform transition-transform duration-300 md:translate-x-0 md:block pt-20 md:pt-0 overflow-y-auto ${
+        className={`fixed inset-y-0 left-0 z-40 w-64 transform transition-transform duration-300 bg-gray-900 text-white overflow-y-auto pt-20 md:static md:inset-auto md:translate-x-0 md:pt-0 md:w-1/5 md:h-full ${
           isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
         }`}
+        style={{ zIndex: 50, top: 'var(--navbar-height)', height: 'calc(100vh - var(--navbar-height))' }}
       >
         {/* Close button for mobile */} 
         <button

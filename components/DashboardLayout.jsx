@@ -36,14 +36,19 @@ export default function DashboardLayout({ children }) {
         <Navbar />
       </div>
 
-      {/* Main Content */}
-      <div className="flex">
+      {/* Container below navbar: sidebar + scrollable content */}
+      <div className="app-main-wrapper">
+        {/* Background layer (fixed behind scrollable content) */}
+        <div className="content-bg-fixed" aria-hidden />
+
         {/* Sidebar */}
         <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
-        {/* Page Content */}
-        <main className="flex-1 p-6 md:p-8">
-          <div className="max-w-6xl">
+        {/* Page Content (only this scrolls) */}
+        <main className="content-scrollable p-6 md:p-8 z-10 overflow-hidden
+bg-[radial-gradient(circle_at_center,_rgba(147,197,253,0.06)_0%,_rgba(59,130,246,0.25)_45%,_rgba(30,64,175,0.45)_65%,_#020617_85%)]">
+          
+          <div className="max-w-6xl mx-auto">
             {children}
           </div>
         </main>

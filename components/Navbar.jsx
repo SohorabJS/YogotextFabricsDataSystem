@@ -46,8 +46,8 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="bg-white border-b border-gray-200 shadow-sm">
-      <div className="max-w-full px-6 py-4">
+    <nav className="bg-white border-b border-gray-200 shadow-sm" style={{ height: 'var(--navbar-height)' }}>
+      <div className="max-w-full px-6 py-3" style={{ height: '100%' }}>
         <div className="flex justify-between items-center">
           {/* Left Side: Logo and Company Name */}
           <div className="flex items-center gap-3">

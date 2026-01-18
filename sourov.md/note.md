@@ -10,3 +10,9 @@ Lets start to build as needed according as i told you.Build a dynamic UI. Every 
 
 Later I will add more Fabrics type Data Here.....
 
+
+
+
+#nav side bar modification:
+lets fix the height issues,side bar height will start bottom of the nav bar.and it will not move if i scroll. then fix the width issus between side bar and main home page. side bar and home page stay in a same div. but side bar will take 20% width and home page will take 80% width.and On the home content will scroll only . set a bg color behind of the content.Assuem content will only scroll and bg color will not move like that. lets start building.
+

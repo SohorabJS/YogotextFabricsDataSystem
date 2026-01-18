@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen ">
       {/* Sticky Background Gradient */}
       <div className="fixed inset-0 bg-linear-to-br from-cyan-400 "></div>
 
