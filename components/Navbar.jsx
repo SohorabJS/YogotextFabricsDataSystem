@@ -76,13 +76,13 @@ export default function Navbar() {
               <>
                 <Link
                   href="/signin"
-                  className="px-6 py-2 text-blue-600 font-semibold border border-blue-600 rounded-lg hover:bg-blue-50 transition"
+                  className="px-6 py-2 text-blue-600 font-semibold text-sm border border-blue-600 rounded-lg hover:bg-blue-50 transition"
                 >
                   Sign In
                 </Link>
                 <Link
                   href="/signup"
-                  className="px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
+                  className="px-6 text-sm py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
                 >
                   Sign Up
                 </Link>

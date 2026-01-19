@@ -83,7 +83,7 @@ export default function SampleSearch({ apiPath, title = 'Samples' }) {
             <select
               value={type}
               onChange={(e) => setType(e.target.value)}
-              className="border text-gray-50 transition-all bg-blue-500 rounded px-3 py-2 outline-0 hover:bg-blue-800"
+              className="text-sm border text-gray-50 transition-all bg-blue-500 rounded px-3 py-2 outline-0 hover:bg-blue-800"
             >
               <option value="sampleCode">Sample Code</option>
               <option value="sampleItemCode">Item Code</option>
