@@ -74,3 +74,9 @@ Sample code:
 |
 └──────────────────────────────────────────────────────────────┘
 
+
+
+Hey i need to store large amount of data set. check in the public folder/uploads/regularSampleData.csv 
+have to setup for regular sample data, I dont know how to upload csv file.Just setup and push data collection name into ' regularsamples ' lets go.also install needed dependency if need for upload csv file.
+
+i have small issue in nav_side bar. when i view in small device. side bar dont take full height top to bottom.fix the bug. and make the background transparent of sidebar.
