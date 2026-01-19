@@ -136,7 +136,7 @@ bg-[radial-gradient(circle_at_center,_rgba(147,197,253,0.06)_0%,_rgba(59,130,246
       w-[260px] h-[260px]
       -translate-x-1/2 -translate-y-1/2
       scale-x-[1.5]
-      rotate-[400deg]
+      rotate-[0deg]
       animate-spin [animation-duration:60s]"
     >
       <div className="absolute top-1/2 -translate-y-1/2
