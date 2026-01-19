@@ -17,11 +17,14 @@ export default function HomePage() {
           {/* Hero / Summary Section */}
           <div className="text-fuchsia-700">
             <h1 className="text-5xl font-bold mb-4">Welcome to YOGOTEX DEMIN</h1>
-            <p className="text-xl text-amber-600 mb-2">YOGOTEX FABRICS COM.LTD.</p>
+            <p className="text-xl text-amber-600 mb-2 inline-block p-2  bg-black/20
+  backdrop-blur-sm
+  px-4 py-2
+  rounded-md font-bold">YOGOTEX FABRICS COM.LTD.</p>
             <p className="text-lg text-blue-600 mb-6">
               Comprehensive Fabric Data Management System - Your complete solution for textile operations
             </p>
-            <p className="text-blue-700 max-w-2xl">
+            <p className="inline-block bg-black/20 backdrop-blur-sm text-white px-4 py-2 rounded-md">
               Our advanced data system enables you to manage, track, and analyze fabric inventory and production with precision and efficiency. 
               Streamline your textile operations with real-time insights and comprehensive data analytics.
             </p>
