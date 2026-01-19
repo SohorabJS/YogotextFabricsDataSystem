@@ -16,7 +16,7 @@ export default function SampleMenu() {
         <Link
           key={it.href}
           href={it.href}
-          className="px-4 py-2 transition-all hover:text-blue-50 bg-blue-200 border border-gray-200 rounded-md text-sm text-gray-700 hover:bg-gray-500"
+          className="px-4 py-2 transition-all   bg-blue-200 border border-gray-200 rounded-md text-sm text-gray-700  text-3xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"
         >
           {it.label}
         </Link>

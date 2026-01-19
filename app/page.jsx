@@ -16,7 +16,7 @@ export default function HomePage() {
         <div className="space-y-8">
           {/* Hero / Summary Section */}
           <div className="text-fuchsia-700">
-            <h1 className="text-5xl font-bold mb-4">Welcome to YOGOTEX DEMIN</h1>
+            <h1 className="text-5xl text-3xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4 ">Welcome to YOGOTEX DEMIN</h1>
             <p className="text-xl text-amber-600 mb-2 inline-block p-2  bg-black/20
   backdrop-blur-sm
   px-4 py-2
