@@ -83,7 +83,9 @@ export default function SampleSearch({ apiPath, title = 'Samples' }) {
             <select
               value={type}
               onChange={(e) => setType(e.target.value)}
-              className="text-sm border text-gray-50 transition-all bg-blue-500 rounded px-3 py-2 outline-0 hover:bg-blue-800"
+              className="text-sm bg-black/30 text-white rounded-xl
+            hover:bg-black/20 hover:backdrop-blur-lg
+            transition-all duration-300"
             >
               <option value="sampleCode">Sample Code</option>
               <option value="sampleItemCode">Item Code</option>
@@ -94,7 +96,9 @@ export default function SampleSearch({ apiPath, title = 'Samples' }) {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder={`Search by ${type === 'sampleCode' ? 'sample code' : type === 'sampleItemCode' ? 'item code' : 'customer name'}`}
-              className="flex-1 border rounded px-3 py-2 outline-0 hover:bg-gray-50 transition-all"
+              className="flex-1 border bg-black/35 text-white rounded-2xl
+              hover:bg-white/10 hover:backdrop-blur-x
+              transition-all duration-300 px-5 shadow-2xs"
             />
 
             <button
