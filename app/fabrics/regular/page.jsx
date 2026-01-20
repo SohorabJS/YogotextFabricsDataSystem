@@ -14,7 +14,7 @@ export default function RegularPage() {
           <p className="text-black">Search and view regular sample records</p>
         </div>
 
-        <div className="bg-white rounded-lg text-sm text-black shadow p-6 border">
+        <div className=" bg-white/10 text-black backdrop-blur-lg p-8 rounded-2xl shadow-xl ">
           <SampleSearch apiPath="/api/SamplesData/regular" title="Regular Samples" />
         </div>
       </div>

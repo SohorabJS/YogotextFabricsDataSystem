@@ -11,7 +11,7 @@ export default function SampleMenu() {
   ];
 
   return (
-    <nav className="flex flex-wrap gap-2">
+    <nav className="flex flex-wrap gap-2 bg-white/10 text-black backdrop-blur-lg p-8 rounded-2xl shadow-xl">
       {items.map((it) => (
         <Link
           key={it.href}
@@ -22,5 +22,7 @@ export default function SampleMenu() {
         </Link>
       ))}
     </nav>
+
+    
   );
 }

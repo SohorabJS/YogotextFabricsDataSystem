@@ -12,7 +12,7 @@ export default function MasterSongPage() {
           <p className="text-gray-600">Search and view master song development samples</p>
         </div>
 
-        <div className="bg-white rounded-lg shadow p-6 border border-gray-100">
+        <div className="bg-white/10 text-black backdrop-blur-lg p-8 rounded-2xl shadow-xl">
           <SampleSearch apiPath="/api/SamplesData/master-song-development" title="Master Song Development" />
         </div>
       </div>

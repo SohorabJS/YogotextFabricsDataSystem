@@ -75,10 +75,10 @@ export default function SampleSearch({ apiPath, title = 'Samples' }) {
   };
 
   return (
-    <div>
+    <div className=''>
       <div className="space-y-4">
         {/* Search Form */}
-        <div className="flex items-center gap-3 mb-4">
+        <div className="flex items-center gap-3 mb-4 ">
           <form onSubmit={handleSearch} className="flex gap-2 w-full">
             <select
               value={type}
