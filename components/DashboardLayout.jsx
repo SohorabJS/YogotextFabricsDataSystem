@@ -9,6 +9,7 @@ export default function DashboardLayout({ children }) {
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
 
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Navbar */}
@@ -49,7 +50,8 @@ export default function DashboardLayout({ children }) {
 bg-[radial-gradient(circle_at_center,_rgba(147,197,253,0.06)_0%,_rgba(59,130,246,0.25)_45%,_rgba(30,64,175,0.45)_65%,_#020617_85%)]">
 
                 {/* ORBIT BACKGROUND */}
- {/* ORBIT BACKGROUND */}
+ {/* ORBIT BACKGROUND */} 
+ 
 <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
 
   <div className="absolute inset-0 animate-[float_80s_linear_infinite]">
@@ -147,9 +149,6 @@ bg-[radial-gradient(circle_at_center,_rgba(147,197,253,0.06)_0%,_rgba(59,130,246
 
   </div>
 </div>
-
-
-
 
 
 

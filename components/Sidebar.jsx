@@ -97,7 +97,7 @@ export default function Sidebar({ isOpen, onClose }) {
                 key={item.href}
                 href={item.href}
                 onClick={onClose}
-                className={`block px-0.5 py-0.5 rounded-lg transition ${
+                className={`block text-sm py-0.5 rounded-lg transition px-2 ${
                   isActive
                     ? 'bg-blue-600 text-white font-semibold'
                     : 'text-gray-300 hover:bg-gray-800 hover:text-white'

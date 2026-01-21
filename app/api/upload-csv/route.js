@@ -1,31 +1,30 @@
-import { NextRequest, NextResponse } from 'next/server';
+ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import csv from 'csv-parser';
 import RegularSample from '@/models/regularSample';
 import { connectMongoose } from '@/lib/mongoose';
 
+export const runtime = 'nodejs'; // ensure Node runtime (Next.js 14+); remove if unsupported
+
 export async function POST(req) {
   try {
-    // Connect to database
+    // Connect to DB
     await connectMongoose();
 
     const formData = await req.formData();
     const file = formData.get('file');
 
     if (!file) {
-      console.log('FormData entries:', Array.from(formData.entries()));
       return NextResponse.json(
-        { error: 'No file provided. Make sure to send file in form-data with key "file"' },
+        { error: 'No file provided. Send file in form-data with key "file".' },
         { status: 400 }
       );
     }
 
-    // Save file temporarily
+    // Save temporary file
     const uploadDir = path.join(process.cwd(), 'public', 'uploads');
-    if (!fs.existsSync(uploadDir)) {
-      fs.mkdirSync(uploadDir, { recursive: true });
-    }
+    if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true });
 
     const fileName = `${Date.now()}_${file.name || 'regularSampleData.csv'}`;
     const filePath = path.join(uploadDir, fileName);
@@ -33,115 +32,104 @@ export async function POST(req) {
     const bytes = await file.arrayBuffer();
     fs.writeFileSync(filePath, Buffer.from(bytes));
 
-    // Parse CSV and insert into database
     const records = [];
-    let processedCount = 0;
-    let errorCount = 0;
-    const errors = [];
+    const parseErrors = [];
 
-    return new Promise((resolve) => {
+    await new Promise((resolve, reject) => {
       fs.createReadStream(filePath)
         .pipe(csv())
-        .on('data', async (row) => {
+        .on('data', (row) => {
           try {
-            // Map CSV columns to database fields
+            // Normalize and coerce fields
+            const parseIntOrNull = (v) => {
+              const n = parseInt(String(v || '').trim(), 10);
+              return Number.isNaN(n) ? null : n;
+            };
+            const parseDateOrNull = (v) => {
+              if (!v) return null;
+              const d = new Date(v);
+              return isNaN(d.getTime()) ? null : d;
+            };
+            const trimOrNull = (v) => (v === undefined || v === null ? null : String(v).trim());
+
             const sampleData = {
-              sampleCode: row['Sample Code']?.trim(),
-              sampleItemCode: row['Sample Item Name/Code']?.trim(),
-              processingType: row['Processing type']?.trim() || 'Regular Finish',
-              construction: row['Construction']?.trim(),
-              color: row['Color']?.trim(),
-              customerName: row['Customer']?.trim(),
-              customerRequiredWidth: row['Customer Required Width']?.trim(),
-              customerRequirementLengthPercent: row['Customer Requirement Length(%)']?.trim(),
-              customerRequirementWidthPercent: row['Customer Requirement Width(%)']?.trim(),
-              weightBW: row['Weight B/W']?.trim(),
-              sampleIssueDate: row['Sample Issue Date'] ? new Date(row['Sample Issue Date']) : null,
-              finishingDate: row['Finishing Date'] ? new Date(row['Finishing Date']) : null,
-              loomNo: row['Loom No'] ? parseInt(row['Loom No']) : null,
-              warpingNo: row['Warpping No'] ? parseInt(row['Warpping No']) : null,
-              yard: row['Yard']?.trim(),
-              weavingPPI: row['Weaving PPI'] ? parseInt(row['Weaving PPI']) : null,
-              afterDryerWidthInch: row['After Dryer Width(Inch)']?.trim(),
-              dryerSkewCM: row['Dryer Skey(CM)']?.trim(),
-              afterShrinkageSkewCM: row['After Shrinkage Skey(CM)']?.trim(),
-              afterShrinkagePPI: row['After Shrinkage PPI'] ? parseInt(row['After Shrinkage PPI']) : null,
-              ppiPlus: row['PPI(+)'] ? parseInt(row['PPI(+)']) : null,
-              afterWashSkewCM: row['After Wash Skew(CM)']?.trim(),
-              afterShrinkageWidthInch: row['After Srinkage Width(Inch)']?.trim(),
-              boxPercentRightHand: row['Box % (Right Hand)']?.trim(),
-              boxPercentLeftHand: row['Box % (Left Hand)']?.trim(),
-              afterWashWidthPercent: row['After Wash Width %']?.trim(),
-              afterWashLengthPercent: row['After Wash Length %']?.trim(),
-              afterWashWidthInch: row['After Wash Width(Inch)']?.trim(),
-              afterWashPPI: row['After Wash PPI']?.trim(),
-              sampleProcessingDetails: row['Fabrics Process Flow']?.trim(),
+              sampleCode: trimOrNull(row['Sample Code']),
+              sampleItemCode: trimOrNull(row['Sample Item Name/Code']),
+              processingType: trimOrNull(row['Processing type']) || 'Regular Finish',
+              construction: trimOrNull(row['Construction']),
+              color: trimOrNull(row['Color']),
+              customerName: trimOrNull(row['Customer']),
+              customerRequiredWidth: trimOrNull(row['Customer Required Width']),
+              customerRequirementLengthPercent: trimOrNull(row['Customer Requirement Length(%)']),
+              customerRequirementWidthPercent: trimOrNull(row['Customer Requirement Width(%)']),
+              weightBW: trimOrNull(row['Weight B/W']),
+              sampleIssueDate: parseDateOrNull(row['Sample Issue Date']),
+              finishingDate: parseDateOrNull(row['Finishing Date']),
+              loomNo: parseIntOrNull(row['Loom No']),
+              warpingNo: parseIntOrNull(row['Warpping No']),
+              yard: trimOrNull(row['Yard']),
+              weavingPPI: parseIntOrNull(row['Weaving PPI']),
+              afterDryerWidthInch: trimOrNull(row['After Dryer Width(Inch)']),
+              dryerSkewCM: trimOrNull(row['Dryer Skey(CM)']),
+              afterShrinkageSkewCM: trimOrNull(row['After Shrinkage Skey(CM)']),
+              afterShrinkagePPI: parseIntOrNull(row['After Shrinkage PPI']),
+              ppiPlus: parseIntOrNull(row['PPI(+)']),
+              afterWashSkewCM: trimOrNull(row['After Wash Skew(CM)']),
+              afterShrinkageWidthInch: trimOrNull(row['After Srinkage Width(Inch)']),
+              boxPercentRightHand: trimOrNull(row['Box % (Right Hand)']),
+              boxPercentLeftHand: trimOrNull(row['Box % (Left Hand)']),
+              afterWashWidthPercent: trimOrNull(row['After Wash Width %']),
+              afterWashLengthPercent: trimOrNull(row['After Wash Length %']),
+              afterWashWidthInch: trimOrNull(row['After Wash Width(Inch)']),
+              afterWashPPI: trimOrNull(row['After Wash PPI']),
+              sampleProcessingDetails: trimOrNull(row['Fabrics Process Flow']),
             };
 
-            // Only add if sample code exists
-            if (sampleData.sampleCode) {
-              records.push(sampleData);
-            }
+            // Only push rows with sampleCode (or tweak as per your schema)
+            if (sampleData.sampleCode) records.push(sampleData);
+            else parseErrors.push({ row, reason: 'Missing sampleCode' });
           } catch (err) {
-            errorCount++;
-            errors.push(`Row error: ${err.message}`);
+            parseErrors.push({ row, reason: err.message });
           }
         })
-        .on('end', async () => {
-          try {
-            // Insert all records into database
-            if (records.length > 0) {
-              const result = await RegularSample.insertMany(records);
-              processedCount = result.length;
-            }
-
-            // Clean up temporary file
-            fs.unlinkSync(filePath);
-
-            resolve(
-              NextResponse.json(
-                {
-                  message: 'CSV imported successfully',
-                  processedCount,
-                  errorCount,
-                  errors: errors.length > 0 ? errors : undefined,
-                },
-                { status: 200 }
-              )
-            );
-          } catch (err) {
-            // Clean up temporary file
-            if (fs.existsSync(filePath)) {
-              fs.unlinkSync(filePath);
-            }
-
-            resolve(
-              NextResponse.json(
-                { error: `Database insertion error: ${err.message}` },
-                { status: 500 }
-              )
-            );
-          }
-        })
-        .on('error', (err) => {
-          // Clean up temporary file
-          if (fs.existsSync(filePath)) {
-            fs.unlinkSync(filePath);
-          }
-
-          resolve(
-            NextResponse.json(
-              { error: `CSV parsing error: ${err.message}` },
-              { status: 500 }
-            )
-          );
-        });
+        .on('end', () => resolve())
+        .on('error', (err) => reject(err));
     });
+
+    // Insert into DB (allow partial successes)
+    let insertedCount = 0;
+    const insertionErrors = [];
+    if (records.length > 0) {
+      try {
+        const result = await RegularSample.insertMany(records, { ordered: false });
+        insertedCount = result.length;
+      } catch (err) {
+        // If insertMany throws, it may be a BulkWriteError with result.result.ok etc.
+        // Try to extract insertedCount and errors
+        if (err?.insertedDocs) {
+          insertedCount = err.insertedDocs.length;
+        }
+        // Capture message and write errors for diagnostics
+        insertionErrors.push(err.message || String(err));
+      }
+    }
+
+    // Cleanup temp file
+    try { if (fs.existsSync(filePath)) fs.unlinkSync(filePath); } catch {}
+
+    return NextResponse.json(
+      {
+        message: 'CSV import completed',
+        totalRowsParsed: records.length + parseErrors.length,
+        recordsPrepared: records.length,
+        insertedCount,
+        parseErrors: parseErrors.length ? parseErrors : undefined,
+        insertionErrors: insertionErrors.length ? insertionErrors : undefined,
+      },
+      { status: 200 }
+    );
   } catch (error) {
     console.error('Upload error:', error);
-    return NextResponse.json(
-      { error: `Error: ${error.message}` },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: error.message || 'Unknown error' }, { status: 500 });
   }
 }
