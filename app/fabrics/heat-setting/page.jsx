@@ -12,7 +12,7 @@ export default function HeatSettingPage() {
           <p className="text-black">Search and view heat setting sample records</p>
         </div>
 
-        <div className="bg-white rounded-lg shadow p-6 border text-black">
+        <div className="bg-white/10 text-black backdrop-blur-lg p-8 rounded-2xl shadow-xl">
           <SampleSearch apiPath="/api/SamplesData/heatSetting" title="Heat Setting Samples" />
         </div>
       </div>

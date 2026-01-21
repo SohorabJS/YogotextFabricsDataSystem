@@ -92,7 +92,7 @@ export default function Navbar() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2"
+            className="md:hidden p-2 bg-blue-700 rounded shadow"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <svg

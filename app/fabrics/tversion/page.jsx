@@ -12,7 +12,7 @@ export default function TVersionPage() {
           <p className="text-gray-600">Search and view T-version sample records</p>
         </div>
 
-        <div className="bg-white rounded-lg shadow p-6 border border-gray-100">
+        <div className="bg-white/10 text-black backdrop-blur-lg p-8 rounded-2xl shadow-xl">
           <SampleSearch apiPath="/api/SamplesData/tversion" title="T-version Samples" />
         </div>
       </div>
