@@ -6,13 +6,11 @@ const regularSampleSchema = new mongoose.Schema({
   // =========================
   sampleCode: {
     type: String,
-    required: true,
-    trim: true,
+    required: true
   },
 
   sampleItemCode: {
-    type: String,
-    trim: true,
+    type: String
   },
 
   processingType: {
