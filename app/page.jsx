@@ -1,4 +1,6 @@
+ 
 import DashboardLayout from '@/components/DashboardLayout';
+import Clock from '@/components/Clock';
 
 export const metadata = {
   title: 'Home - YOGOTEX FABRICS',
@@ -16,9 +18,11 @@ export default function HomePage() {
         <div className="space-y-8">
           {/* Hero / Summary Section */}
           <div className="text-fuchsia-700">
-            <h1 className="text-5xl text-3xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4 ">Welcome to YOGOTEX DEMIN</h1>
-            <p className="text-xl text-amber-600 mb-2 inline-block p-2  bg-black/20
-  backdrop-blur-sm
+            <div className='flex items-center justify-between mb-4'>
+              <h1 className=" text-3xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4 ">Welcome To YOGOTEX DEMIN</h1>
+              <Clock size={150} showDigital={true} dark={false} />
+            </div>
+            <p className="text-xl text-amber-600 mb-2 inline-block bg-black/20 backdrop-blur-sm
   px-4 py-2
   rounded-md font-bold">YOGOTEX FABRICS COM.LTD.</p>
             <p className="text-lg text-blue-600 mb-6">

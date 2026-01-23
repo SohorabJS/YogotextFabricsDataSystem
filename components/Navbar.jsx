@@ -55,9 +55,13 @@ export default function Navbar() {
               YF
             </div>
             <div className="flex flex-col">
-              <h1 className="text-xl font-bold text-gray-900">YOGOTEX FABRICS</h1>
-              <p className="text-xs text-gray-500">CO.LTD</p>
-            </div>
+      <h1 className="text-xl font-bold text-gray-900">
+        <Link href="/" className="hover:underline focus:outline-none focus:ring-2 focus:ring-indigo-400 rounded">
+          YOGOTEX FABRICS
+        </Link>
+      </h1>
+      <p className="text-xs text-gray-500">CO.LTD</p>
+    </div>
           </div>
 
           {/* Right Side: Buttons */}
