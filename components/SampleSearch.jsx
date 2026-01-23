@@ -144,8 +144,8 @@ export default function SampleSearch({ apiPath, title = 'Samples' }) {
         )}
 
         {!loading && results.length === 0 && !error && (
-          <div className="text-gray-500 text-center py-8">
-            Enter a search query and click Search to get started
+          <div className="px-4 py-2 transition-all   bg-blue-200  rounded-md text-sm text-gray-700 text-center  text-3xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+             Enter a search query and click Search to get started
           </div>
         )}
       </div>
