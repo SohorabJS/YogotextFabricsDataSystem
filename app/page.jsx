@@ -19,7 +19,7 @@ export default function HomePage() {
           {/* Hero / Summary Section */}
           <div className="text-fuchsia-700">
             <div className='flex items-center justify-between mb-4'>
-              <h1 className=" text-3xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4 ">Welcome To YOGOTEX DEMIN</h1>
+              <h1 className=" text-3xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4 ">Welcome To YOGOTEX DENIM</h1>
               <Clock size={150} showDigital={true} dark={false} />
             </div>
             <p className="text-xl text-amber-600 mb-2 inline-block bg-black/20 backdrop-blur-sm

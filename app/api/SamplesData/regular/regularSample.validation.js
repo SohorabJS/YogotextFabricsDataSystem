@@ -8,7 +8,6 @@ export const regularSampleValidation = {
       errors.sampleCode = "Sample code is required and must be a non-empty string"
     }
 
- 
 
     // Optional string fields validation
     const stringFields = ["construction", "color", "customerName", "customerRequiredWidth", 
