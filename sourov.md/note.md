@@ -80,3 +80,44 @@ Hey i need to store large amount of data set. check in the public folder/uploads
 have to setup for regular sample data, I dont know how to upload csv file.Just setup and push data collection name into ' regularsamples ' lets go.also install needed dependency if need for upload csv file.
 
 i have small issue in nav_side bar. when i view in small device. side bar dont take full height top to bottom.fix the bug. and make the background transparent of sidebar.
+
+
+
+
+Hey man, there are on the mongDB database server storing those datas are null:
+
+boxPercentRightHand: null
+boxPercentLeftHand: null
+afterWashWidthPercent: null
+afterWashLengthPercent: null
+And data are not display on the client UI.fix that problem. check UI code and backend code both and fix immidiately. 
+
+
+
+CSV file configure with the column title name:
+sampleCode	sampleItemCode	processingType	construction	color	customerName	customerRequiredWidth	customerRequirementLengthPercent	customerRequirementWidthPercent	weightBW	sampleIssueDate	finishingDate	loomNo	warpingNo	yard	afterDryerWidthInch	weavingPPI	dryerSkewCM	afterShrinkageSkewCM	afterShrinkagePPI	ppiPlus	afterWashSkewCM	afterShrinkageWidthInch	boxPercentRightHand	boxPercentLeftHand	afterWashWidthPercent	afterWashLengthPercent	afterWashWidthInch	afterWashPPI	sampleProcessingDetails	Remarks
+
+I haved made with this title column name of every single data of CSV file. Just you check , Are they matching with the name created data model for regular sample data.If may any thing i have made mistake. then fix and where was problem just identify.Because you know boxPercentRightHand	boxPercentLeftHand	afterWashWidthPercent	afterWashLengthPercent data are store as a null property. I need solution . when it shows null and on the UI section the data are empty. 
+
+
+
+
+
+Heat Setting Sample Setup note:
+1) below i am presenting heat setting sample data column title, and make sure those data column title match with created heat setting sample data model.If not match with given csv file data column, fix it immidiatly according to.
+→ sampleCode	sampleItemName	constructionNo	color	customerName	customerRequiredWidth	customerRequiredWidth%	customerRequiredLength%	customerRequiredWeight	loomNo	warppingNo	yard	beforeHeatSettingWidth	afterHeatSettingWidth	afterDryerWidth	weavingPPI	afterDryerSkew	sampleIssueDate	finishingDate	afterShrinkageSkew	afterShrinkagePPI	afterShrinkagePPI+	afterWashSkew	afterShrinkageWidth	boxPercentRightHand	boxPercentLeftHand	afterWashWidthPercent	afterWashLengthPercent	afterWashWidth	afterWashPPI	burnnerQnt	m/cSpeed	machineWidthSetting	tempSetting	sampleProcessingDetails
+
+2) before pushing data on the database server. Need to make sure those data will store in the particular data collection name is "heatsettingsamples" whice is already created in mongDB database.Every thing will go same like regular data process.How regular sample data are dealing with UI and backend.just i have added few particular field in heat setting sample data process. add them and safely check backend and UI code and build according to the need handling those data. lets go. 
+
+
+
+
+thos issues are encountering with Heat Setting sample data section:
+→ Hey man there is an issue with a field name "customerRequiredWidth" fix that , acually what happend listen.Assume 
+customerRequiredWidth is a specific field. instead of exact value storing in this field , another data of the field name is customerRequirementWidthPercent(this data is being set in this field(customerRequiredWidth))
+
+→ same thing happend with afterShrinkagePPI(it doesnt set exact value ) there is being set ppiPlus field value. fix also that issue.
+
+→Occuring another issue with those field sampleIssueData and finishingData. it isnt being setting exact value.
+
+accually what are the value in the csv file. Not being set exact value in the UI. also those value are not store as original value. check the csv file field.lets fix.

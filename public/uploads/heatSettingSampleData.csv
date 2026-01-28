@@ -1,0 +1,642 @@
+sampleCode,sampleItemName,constructionNo,color,customerName,customerRequiredWidth,customerRequiredWidth%,customerRequiredLength%,customerRequiredWeight,loomNo,warppingNo,yard,beforeHeatSettingWidth,afterHeatSettingWidth,afterDryerWidth,weavingPPI,afterDryerSkew,sampleIssueDate,finishingDate,afterShrinkageSkew,afterShrinkagePPI,afterShrinkagePPI+,afterWashSkew,afterShrinkageWidth,boxPercentRightHand,boxPercentLeftHand,afterWashWidthPercent,afterWashLengthPercent,afterWashWidth,afterWashPPI,burnnerQnt,m/cSpeed,machineWidthSetting,tempSetting,sampleProcessingDetails
+X25273,RNPS075-09R5,"5950x60
+20ring(Nishat)+16rsl(yt-161)Nishat+16rsl(yt-165)Nishat(6:2:2)X20-40D T/Raw(Recycle)Xuzhou, 3/1RHT",Indigo#5,Al-Islam Textile/C&A,,,,7.30 oz,319,2509821,103Y,"C:65.5''
+F:66''","C:64.6''
+F:65.3''","C:62''
+F:63''",60,13.0cm,,9/16/2025,8.0cm,68,+8,7.5cm,"C:58.8''
+F:59.5''",-0.76%,-1.22%,-12.70%,-1.70%,51.3'',68,8burnner,130m/m,After singieng W + 1'',165°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25270,X25250 (H.S),"4273X55
+12ring(Nishat) X 16-70D TR/Raw(Changzhou), 3/1RHT",Blue Black #8D,H&F,,,,,220,2508760,87Y,"C:61.2''
+F:62.2''","C:60''
+F:61''","C:55''
+F:56''",55,11.0cm,,9/9/2025,7.5cm,65,+10,8.0cm,"C:52.7''
+F:53.5''",0.74%,-1.05%,-15.90%,-4.00%,44.3'',62,8burnner,30m/m,After Singeing width + 2'',165°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25269,X25252(copy),"4752 X 51
+9ring slub(YT-393)Nishat X 12-40D(Nishat, BCI), 3/1RHT",Natural #1,Quazi Abdin Tex ,62''--63'',#-(12-16)%,,11.00oz,409,2509812,100Y,"C:66.8''
+F:67.8''","C:66''
+F:67''","C:63''
+F:64''",51,17.0cm,,9/10/2025,12.0cm,59,+8,12.0cm,"C:62.5''
+F:63.5''",-4.34%,3.10%,-15.60%,-1.50%,52.7'',60,8burnner,30m/m,After Singeing width + 1'',165°C,Singeing+Heat Setting+Dryer(odl)+Sanforized
+X25268-2,PPI card - 3%(Ok),"4216X41
+9rn(Nishat)X7oe(Badsha), 3/1RHT",Grey#03,MKT/STF Trial,65,# -6%,,10.25,211,2505475,60,"C:62''
+F:63''","C:64.5''
+F:65.5''","C:64.5''
+F:65.5''",41,14.5cm,,9/10/2025,10.5cm,43,2,11.5cm,"C:64''
+F:65''",0.02%,0.02%,-0.05%,-0.10%,60.8,48,8burnner,28m/m,Dryer Width +  5'',120°C,Singeing+Dryer(1box cold water)+Heat Setting(cold Water)+Sanforized
+X25268-1,PPI card - 5%(Not Ok),"4216X41
+9rn(Nishat)X7oe(Badsha), 3/1RHT",Grey#03,MKT/STF Trial,65,# -6%,,10.25,211,2505475,60,"C:61.5''
+F:62.8''","C:62.6''
+F:63.7''","C:61.5''
+F:62.8''",41,15.0cm,,9/11/2025,10.5cm,43,2,11.5cm,"C:61.8''
+F:62.8''",0.03%,-0.02%,-0.02%,-0.09%,60.6,48,8burnner,28m/m,Dryer Width +  3'',120°C,Singeing+Dryer(1box 50°C)+Heat Setting(cold Water)+Sanforized
+X25268-3,OK,"4216X41
+9rn(Nishat)X7oe(Badsha), 3/1RHT",Grey#03,MKT/STF Trial,65,# -6%,,10.25,211,2505475,,"C:62''
+F:63''","C:64.7''
+F:65.7''","C:62''
+F:63''",41,14.0cm,,9/15/2025,15.0cm,43,2,13.0cm,"C:64.7''
+F:65.7''",1.50%,-2.20%,6.49%,-15.40%,60.5,48,8burnner,28m/m,Dryer Width +  5''/67'',120°C,Singeing+Dryer(1box cold water)+Heat Setting(Cold Water)+Sanforized
+X25260,,"4752X50
+10rls(Nishat,yt-199)+10rls(yt-233, Nishat)(1:1) X 16-40D(Nishat) + 16-70D(yt-161, Nishat), 3/1RHT",,,,,,,204,2507626,100Y,"C:67''
+F:67.8''","C:65.5''
+F:66.7''","C:56.7''
+F:57.7''",50,15.5cm,,9/5/2025,11.0cm,57,+7,11.0cm,"C:55.5''
+F:56.5''",-2.70%,-0.45%,-13.15%,0.00%,48.2'',57,8burnner,28m/m,After Singeing Width + 1'',160°C,Singeing+Heat Setting+Dryer(5box 60°C)+Semi_mercerized+Sanforized
+X25258,RNPS100-29R8D,"4273X55
+12rn(Nishat) X16-70D(Changzhou) T/Raw 3/1 R.H.T",Blue Black#8D,H&F,52''(cut),,,,123,2508760,90Y,"C:62.2''
+F:62.8''","C:59.6''
+F:60.5''","C:54.8''
+F:55.5''",55,17.5cm,,9/3/2025,12.0cm,65,+10,7.5cm,"C:53''
+F:53.8''",-4.50%,-4.20%,16.90%,2.40%,44.0'',62,8burnner,28m/m,After Singeing Width + 1'',160°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25252,X25170(copy),"4752x51
+9siro slub(7052)Nishat X 12 - 40D (Nishat, BCI), 3/1RHT",Natural #01,Quazi Abdin Tex Ltd./STR,58 '',# - (6--10)%,,11.00oz,504,2508774,100Y,"C:67.6''
+F:68.5''","C:66.2''
+F:67.2''","C:63''
+F:64''",51,15.0cm,,8/31/2025,11.0cm,60,+9,11.0cm,"C:62.7''
+F:63.8''",3.30%,2.28%,-14.60%,-0.70%,53.5'',60,8Burnner,30m/m,After Singeing width + 1'',170°C,Singeing+Heat Setting+Dryer(5Box 60°C) + Sanforized 
+X25250,RNPS100-29R8D,"4273X55
+12ring(Nishat)X16-70D TR/Raw(Changzhou), 3/1RHT",Blue Black#8D,H&F/Philobar,47''--48'',#(13--17)%,,10.00oz,122,2508760,80Y,"C:61''
+F:61.8''","C:57.7''
+F:58.5''","C:53''
+F:53.8''",55,15.5cm,,9/3/2025,12.5cm,64,+9,7.5cm,"C:50.8''
+F:51.5''",-6.80%,-3.07%,-19.20%,2.20%,41.0'',62,8burnner,28m/m,After Singeing width + 1'',160°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25246,,"4464X48
+10rsl(ty-233)Nishat X 16-70D T/Raw changzhou , 3/1RHT",Blue Black#8D,H&F,52'',,,,,2508755,68Y,"C:62.6''
+F:63.4''","C:59.5''
+F:60.5''","C:55''
+F:55.8''",48,16.5cm,,9/3/2025,12.5cm,58,+10,8.5cm,"C:53.4''
+F:54.1''",-4.60%,-3.50%,-20.70%,2.20%,42.3'',57,8Burnner,28m/m,After Singeing Width + 1'',160°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25237,,"6840x60
+20rn(nishat)X20-40D N.S(Nishat), 3/1RHT",Blue black#8D,Eco Sourcing,61''--62'',# -(15--19)%,,6.75oz,219,2504310,60Y,"C:66.5''
+F:66.8''","C:66''
+F:67''","C:62.2''
+F:63''",60,16.0cm,,8/16/2025,12.0cm,70,+10,10.0cm,"C:61.8''
+F:62''",-4.30%,-0.76%,-15.60%,0.00%,52.1'',70,8 Burnner,28m/m,After Singeing width + 1'',180°C,Singeing+Heat Setting+Dryer(5Box 85°C) + Sanforized 
+X25236,,"6840x60
+20rn(Nishat)X20-40D N.S(Nishat), 3/1RHT",Dark Indigo#6,Eco sourcing,61''--62'',# -(15-19)%,,6.75oz,207,2508694,50Y,"C:66.8''
+F:67.5''","C:65.8''
+F:66.7''","C:62.7''
+F:63.5''",60,12.0cm,,8/16/2025,11.5cm,70,+10,10.0cm,"C:61.8''
+F:62.5''",-2.80%,-0.60%,-15.50%,1.80%,52.2'',69,8Burnner,28m/m,After singeing widht + 1'',180°C,Singeing+Heat Setting+Dryer(5Box 85°C) + Sanforized 
+X25216-1,,"3888x42
+7oeX10-40D(Nishat, BCI), Herringbone",Black #9L,Bershka,61'',,,,121,2507652,45Y,"C:68.2''
+F:69''","C:66''
+F:67''","C:59.7''
+F:61''",42,15.0cm,,8/3/2025,12.5cm,48,+6,11.5cm,"C:59.2''
+F:60.5''",0.71%,0.00%,-15.80%,-2.20%,49.8'',51,8 Burnner,30m/m,After Singeing Width+1'',150°C,Singeing + Heat Setting + Dryer(5box 60°C) +Sanforized
+X25201,PRS105-09R6,"3906X43
+7oe Low TM (Salek) X 12-40D(Nishat,  Physical BCI), 3/1 R.H.T",Natural#01,Trim Wear,61''--62'',#-(12--16)%,,10.50oz,608,2507561,120Y,"C:66.5''
+F:67.8''","C:65.8''
+F:66.8''","C:62''
+F:63''",43,19.0cm,,7/26/2025,12.0cm,50,+7,12.0cm,"C:62.2''
+F:63.4''",-3.50%,-5.50%,15.40%,-2.40%,52.6'',50,8 Burnner,30m/m,"After Singeing width +1""",175°C,Singeing+Heat Setting+Dryer(Old Dryer 1box) + Sanforized 
+X25200,RNS120-02R5,"3888x42
+7OE low TM x 8-40D(NS) , Herringbone
+Salek                Nishat, ",Black,Bershka,,,,,121,2506492,60Y,"C:67''
+F:68''","C:67.2''
+F:68.7''","C:62.8''
+F:64''",42,16.5cm,,7/26/2025,11.5cm,49,+7,10.5cm,"C:62.5''
+F:63.7",-1.80%,-0.29%,-12.00%,-1.00%,55.0'',50,8 Burnner,32m/m,"After Singeing width +1""",170°C,Singeing+Heat Setting+Dryer(5Box 60°C) + Sanforized 
+X25199,X25170(copy),"4464X51
+9ring slub(yt-393)Nishat X 12-40D(Nishat), 3/1RHT",Dark Indigo + PD(#6A),Sainsbury,56''--57'',# -(6--10)%,,11.00oz,220,2507635,100Y,"C:66.7''
+F:68.7''","C:65.6''
+F:67.2''","C:55.4''
+F:57''",51,14.0cm,,7/30/2025,10.0cm,59,+8,10.0cm,"C:55.2''
+F:56.8''",0.70%,-1.30%,-7.40%,2.90%,51.1'',57,8 Burnner,30m/m,"After Singeing width +1""",160°C,Singeing+Heat Setting+Semi_Mercerized+Padding(140GPL) + Sanforized 
+X25174,PRS105-09R6C,"3906x43
+7oe low TM(Salek) X 12-40D(nishat, BCI), 3/1RHT",Blue Black #9S,Trim wear,,,,,606,257584,122Y,"C:67''
+F:67.8''","C:66''
+F:67.2''","C:61.7''
+F:62.8''",43,14.0cm,,7/8/2025,11.0cm,50,+7,12.5cm,"C:61.2''
+F:62.2''",2.36%,1.18%,12.40%,0.00%,53.6'',50,8 Burnner,30m/m,"After Singeing width +1""",175°C,Singeing +Heat Setting+ Dryer(5box 85°c )+Sanforized
+X25174,PRS105-09R6C,"3906x43
+7oe low TM(Salek) X 12-40D(nishat, BCI), 3/1RHT",Blue Black #9S,Trim wear,,,,,606,257584,122Y,"C:67''
+F:67.8''","C:66''
+F:67.2''","C:61.7''
+F:62.88''",43,14.0cm,,7/8/2025,11.0cm,50,+7,12.5cm,"C:61.2''
+F:62.2''",-2.36%,1.18%,-12.40%,0.00%,53.6'',50,8 Burnner,30m/m,After Singeing width + 1'',175°C,Singeing + Heat Setting + Dryer(5box 85°C) +Sanforized
+X25170,,,,,,,,,207,2507583,145Y,"C:67''
+F:68.2''","C:66''
+F:67.7''","C:57''
+F:58.7''",50,16.0cm,,7/8/2025,10.0cm,58,+8,9.5cm,"C:56.4''
+F:57.8''",-0.58%,-1.30%,-7.80%,0.00%,52.0'',58,8 Burnner,30m/m,After Singeing width + 1'',160°C,Singeing+Heat Setting +Semi_Mercerized+Dryer(5box Wash 85°C)+Black Padding+Sanforized
+X25156,,"3906x43
+7oe low TM(Salek) X 12-40D(nishat, BCI), 3/1RHT",Black,Trim wear,,,,,617,2507562,130Y,"C:67.8''
+F:68.4''","C:65.9''
+F:67''","C:62''
+F:63''",43,15.0cm,,7/5/2025,12.0cm,51,+8,12.0cm,"C:63.4''
+F:64.1''",1.49%,-1.19%,-13.70%,1.00%,53.1'',50,8 Burnner,30m/m,After Singeing width + 1'',175°C,Singeing+Heat Setting +Dryer(5box 60°C)+Sanforized
+X25155,,"3906x43
+7oe low TM(Salek) X 12-40D(nishat, BCI), 3/1RHT",RFD#11,Trim wear,,,,,617,2507561,120Y,"C:66.8''
+F:67.8''","C:66''
+F:67''","C:61.2''
+F:62.5''",43,8.0cm,,7/5/2025,9.5cm,48,+5,9.5cm,"C:60.8''
+F:61.8''",3.10%,4.08%,-12.50%,-1.10%,53.2'',49,8 Burnner,30m/m,After Singeing width + 1'',165°C,Singeing+Heat Setting +RFD+Dryer(Old)+Sanforized
+X25151-2,,"3564x40
+9ring(Nishat)+9siro slub(Nishat), (6:4) X 12-40D(Nishat, N.S), 3/1RHT",Blue Black #8D,Natural Indigo,,,,,617,2506537,22Y,"C:62''
+F:63''","C:60.8''
+F:61.8''","C:53.8''
+F:54.8''",40,12.0cm,,6/30/2025,11.0cm,47,+7,10.0cm,"C:53.2''
+F:54.2''",-1.70%,-2.30%,-16.40%,-3.00%,48.2'',44,8 Burnner,30m/m,"After Singeing width +2""",155°C,Singeing+Heat Setting + Dryer(60°C 5box) +Sanforized
+X25151-1,,"3564x42
+9ring(Nishat)+9siro slub(Nishat), (6:4) X 16-40D(Nishat, N.S), 3/1RHT",Blue Black #8D,Natural Indigo,,,,,617,2506537,22Y,"C:60.5''
+F:61.5''","C:59''
+F:60''","C:53.3''
+F:54.4''",40,12.0cm,,6/30/2025,9.5cm,49,+9,9.0cm,"C:51.8''
+F:52.8''",-1.57%,2.60%,-21.90%,0.00%,46.6'',49,8 Burnner,30m/m,"After Singeing width +2""",155°C,Singeing +heat Setting+ Dryer(5box 60°C) +Sanforized
+X25149,RNS120-02R5,,,,,,,,617,2505434,125Y,"C:68''
+F:68.8''","C:67''
+F:67.7''","C:61.3''
+F:62''",42,14.5cm,,6/25/2025,13.5cm,49,+7,11.5cm,"C:61.2''
+F:62''",-1.30%,-1.49%,-7.30%,-3.00%,56.7'',49,8 Burnner,32m/m,"After Singeing width +1""",170°C,Singeing +Heat Setting + Dryer(5Box wash 85°C)+Black Padding(140GPL) +Sanforized
+X25147,X25096(copy),"3906x43
+7oe low TM(Salek) X 12-40D(nishat, BCI), 3/1RHT",Dark Indigo#6C,Trim wear,,,,,616,2506530,100Y,"C:67''
+F:67.5''","C:66''
+F:67''","C:62''
+F:63''",43,16.0cm,,6/25/2025,12.0cm,51,+8,12.0cm,"C:61.5''
+F:62.5''",-1.78%,0.44%,-13.00%,1.00%,53.5'',50,8 Burnner,30m/m,After Singeing width + 1'',175°C,Singeing + Heat Setting+ Dryer(5box 60°C)+Sanforized
+X25139,RNS120-02R6,"3888x42
+7ring(Badsha) x 8-40D(N.S, nishat), 3/1RHT",Blue Black #8C,Natural Indigo/ Pull &Wear,,,,,617,2506519,126Y,"C:68''
+F:68.8''","C:67.4''
+F:68.1''","C:62''
+F:62.8''",42,16.0cm,,6/26/2025,13.5cm,49,+7,12.0cm,"C:62.2''
+F:63.1''",-0.40%,0.00%,-10.70%,0.00%,55.5'',49,8 Burnner,32m/m,After Singeing width + 1'',170°C,Singeing + Heat Setting + Dryer(5box 60°C) +Sanforized
+X25137,RNS120-02R5,"3888x42
+7ring(Badsha) x 8-40D(N.S, nishat) ,3/1RHT",Grey#03,Natural Indigo/ Pull &Wear,,,,,617,2506521,120Y,"C:67.5''
+F:68.5''","C:66.8''
+F:67.7''","C:62''
+F:63.2''",42,16.0cm,,6/25/2025,12.5cm,50,+8,12.0cm,"C:62''
+F:62.5''",-0.59%,1.33%,-11.60%,0.00%,54.8'',50,8 Burnner,32m/m,After Singeing width + 1'',170°C,Singeing + Heat Setting + Dryer(5box 60°C) +Sanforized
+X25121,X25096(copy),"3906X43
+7oe Low TM(Salek)X12-40D(Nishat, BCI), 3/1RHT",Black#9L + PD(#12A),Trim Wear,61''--62'',# -(12--16)%,,10.50oz,609,2506492,122Y,"C:67.2''
+F:68.2''","C:66.2''
+F:67.5''","C:61.2''
+F:62.2''",43,14.5cm,,6/21/2025,13.5cm,51,+8,10.0cm,"C:61''
+F:62''",-2.80%,0.10%,-11.40%,0.00%,54.0'',51,8burnner,30m/m,After Singeing width + 1'',170°C,"Singeing+Heat Setting+Dryer(5box wash 85°C, Speed-30m/m)+Black Padding 140GPL +Sanforized"
+X25096,X25086 (copy),"3906x43
+7oe low TM(Salek) X 12-40D(nishat, BCI), 3/1RHT",Indigo#5,MKT,,,,,506,2505405,48Y,"C:65.5''
+F:66.8''","C:65.5''
+F:66.5''","C:61.5''
+F:62.5''",43,15.5cm,,5/14/2025,10.5cm,51,+8,11.0cm,"C:61.5''
+F:62.5''",2.40%,-0.60%,-14.40%,2.40%,52.6'',49,8 Burnner,30m/m,After Singeing width+1'',175°C,Singeing +Heat Setting + Dryer(5box 60°C) + Sanforized
+X25092-3,,,,,,,,,218,2505388,66Y,"C:60.8''
+F:61.7''","C:59''
+F:60.6''","C:55.7''
+F:57.3''",51,13.5cm,,5/22/2025,12.0cm,62,+11,9.0cm,"C:54.5''
+F:55.8''",0.65%,-1.96%,-14.40%,4.60%,46.6'',71,8 Burnner,28m/m,"After Singeing width + 1""",170°C,Singeing + H/S + Dryer(5box 60°C) + Sanforized(3st Time)
+X25092-2,,,,,,,,,319,2503388,88Y,"C:61.2''
+F:63''","C:60.8''
+F:62.5''","C:60.8''
+F:62.5''",51,16.0cm,,5/13/2025,14.0cm,63,+12,8.0cm,"C:55.8''''
+F:57.2'",-3.50%,-0.90%,-15.50%,-11.30%,46.8'',70.5,8 Burnner,28m/m,"After Singeing width+2""",170°C,"Singeing + H/S + Dryer + Sanforized
+1st time sanfo"
+X25092-2,,,,,,,,,319,2505388,88Y,"C:61.2''
+F:63''","C:60.8''
+F:62.5''","C:55.8''
+F:57.2''",63,14.0cm,,5/14/2025,10.0cm,70,+7,8.5cm,"C:55.4''
+F:56.8''",-1.84%,-0.46%,-15.50%,-1.50%,47.0'',71,8 Burnner,28m/m,"After Singeing width+2""",170°C,"Singeing + H/S + Dryer + Sanforized
+2nd time Sanfo"
+X25086,,"3906X43
+7oe low TM(Badsha) X 12-40D(nishat, BCI), 3/1RHT",Indigo#5,Trim wear/ANDENE,,,,,304,2503230,100Y,"C:67''
+F:67.8''","C:66.3''
+F:67.3''","C:62.2''
+F:63.2''",43,14.0cm,,5/5/2025,13.0cm,50,+7,13.5cm,"C:62''
+F:63''",-0.85%,0.28%,-12.90%,1.00%,54.0'',46,8 Burnner,30m/m,"After Singeing width +1""",180°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25070,,"5508X51
+16-40 N.S(Nishat)X16-70D(Ployester/Black Lycra/Hangzhou), 3/1RHT",Black (#9S),Self Development,,,,,,,,,,,,,,4/19/2025,,,+0,,,,,,,,,8 Burnner,28m/m,After Singeing width + 1'',170°C,Singeing+Heat Setting+Dryer(5Box 60°C) + Sanforized(1st&2nd times)-Mean 2times had processed in shrinkag
+X25064,,"6840X60
+20ring(Nishat) X 200-40D Recycle, Hangzhou , 3/1RHT",Blue Black#8D,C&A/Ladies Wear,,,,,120,2504310,120Y,,,"C:62.5''
+F:63.5''",60,17.0cm,,4/21/2025,10.5cm,70,+10,12.5cm,"C:60.8''
+F:61.7''",0.37%,1.43%,-1.79%,1.00%,56.0'',69,8 Burnner,30m/m,After Singeing Width + 1'',150°C,Singeing + H/S + Dryer(5box 60°C) + Sanforized
+X25062,Please Insert Data,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+X25061,,"6840x60
+20rn(Nishat) X 20-40D N.S(Nishat), 3/1RHT",Dark Indigo#6C,Lidl/Singapur,,,,,321,2502175,94Y,"C:67.5''
+F:68.5''","C:66.8''
+F:67.5''","C:63''
+F:63.7''",60,11.0cm,,3/10/2025,8.5cm,68,+8,10.0cm,"C:62.2''
+F:63.2''",3.80%,-6.20%,-18.00%,-0.40%,51.0'',70,8 Burnner,28m/m,"After Singeing width +1""",180°C,Singeing + H/S + Desized + Dryer(1box) + Sanforized
+X25053,,"4468X42
+8ring(Nishat)X10-40D Lycra(Sunray), 3/1RHT",Dark Indigo#6C,C&A,,,,,308,2503246,70Y,,,"C:62.7''
+F:63.8''",42,15.5cm,,3/20/2025,12.0cm,51,+9,12.0cm,"C:62.6''
+F:63.5''",-0.10%,1.50%,18.20%,1.00%,51.2'',50,8 Burnner,30m/m,After Singeing width + 1'',160°C,Singeing + H/S + Dryer(5box 60°C) + Sanforized
+X25037-2,,"4464x43
+8ring(Nishat) X 12 - 40D N.S(Nishat), 3/1 RHT",Dark Indigo#6C,Test Purpose,,,,,516,2502133,60Y,,,"C:58.6''
+F:59.6''",43,19.0cm,,3/4/2025,13.0cm,51,+8,12.0cm,"C:58.8''
+F:59.6''",-1.50%,0.90%,-14.30%,0.00%,50.2'',53,8 Burnner,28m/m,After Singeing Width + 1'',170°C,Singeing + Heat Setting + Dryer(5Box 60°C) + Sanforized
+X25037-1,,"4464x45
+8ring(Nishat) X 12 - 40D N.S(Nishat), 3/1 RHT",Dark Indigo#6C,Test Purpose,,,,,516,2502133,60Y,,,"C:58.5''
+F:59.5''",45,19.0cm,,3/4/2025,13.0cm,53,+8,12.0cm,"C:58.6''
+F:59.6''",-1.80%,0.45%,-15.30%,0.00%,49.5'',51,8 Burnner,28m/m,After Singeing Width + 1'',170°C,Singeing + Heat Setting + Dryer(5Box 60°C) + Sanforized
+X25027,RNS100-21R6C,"4176x40
+8ring X 12- 40D N.S(Nishat), 3/1RHT",Indigo#5,C&A,,,,,516,2502110,62Y,"C:64''
+F:64.3''","C:63''
+F:64.3''","C:58.8''
+F:60''",40,15.0cm,,2/16/2025,12.5cm,47,+7,12.0cm,"C:58.4''
+F:59.5''",-1.54%,0.92%,-16.09%,-1.00%,49.0'',48,8 Burnner,28m/m,After Singing width + 1'',175°C,Singeing + Heat Setting + Dryer(5Box 60°C) + Sanforized
+X25011-2,,"7200x82
+20ring(Nishat)x20ring((Nishat)+20-40D(N.S, Nishat) 1:2,T/Raw SBC RHT",RFD#11,Just James,,,,,323,2501081,80Y,"C:64.8''
+F:65.2''","C:63''
+F:64.3''","C:56''
+F:57''",82,15.0cm,,2/1/2025,2.5cm,93,+11,6.5cm,"C:54''
+F:55''",-1.80%,10.40%,-17.50%,0.00%,44.5'',93,8 Burnner,30m/m,After Singeing width + 1'',160°C,"RFD, Singeing +  Heat Setting + RFD+ Dryer+ Sanforized(old M/C, twill up)"
+X25011-1,,"7200x82
+20ring(Nishat)x20ring((Nishat)+20-40D(N.S, Nishat) 1:2, T/Raw,SBC RHT",RFD#11,Just James,,,,,323,2501081,80Y,,,,,,,,,,+0,,,,,,,,,,,,,
+X25009,,"4176X52
+8ring(Nishat)X10-40D(Lycra, Sunray), 3/1RHT",black 9L + PD(#12A),Jennyfer,61''--62'',#(11--15)%,,11.50oz,201,2501052,210Y,,,"C:60.8''
+F:61.8''",52,16.5cm,,1/20/2025,13.0cm,57,+5,11.5cm,"C:61''
+F:62''",-1.05%,-0.60%,-9.67%,-3.00%,55.1'',57,8 Burnner,30m/m,After Singeing width + 1'',165°C,  Singeing + Heat Setting + Dryer(5box wash 85°C + Black Padding 140GPL + Sanforized 
+X25004,,"4464X40
+8ring(Nishat)X12-40D N.S(Nishat), 3/1RHT",Black(9S)+PD(#12B),C&A,60''--61'',#(13--17)%,,10.00oz,108,2502097,200Y,,,"C:61.4''
+F:62.2''",40,17.5cm,,2/11/2025,12.0cm,46,+6,13.0cm,"C:61.5''
+F:62.5''",0.40%,1.30%,-13.80%,-1.40%,53.0'',47,8 Burnner,28m/m,After Singeing width + 1'',170°C,"Singeing + Heat Setting +Dryer(5box wash 85°C wash, speed-30m/m)+ Dryer(Black Padding 140GPL) +Sanforized"
+X25004,,,,,,,,,318,2501020,102Y,,,"C:61''
+F:62''",40,16.0cm,,1/12/2025,13.0cm,44,+4,11.0cm,"C:61''
+F:62''",0.10%,0.00%,-15.08%,-5.50%,51.8'',46,8 Burnner,,,,"Singeing + Heat Setting + Dryer(5box 85°C, black padding 140GPL) + Sanforized"
+X25004,,,,,,,,,318,2501020,102Y,"C:67.8''
+F:68.8''","C:67.4''
+F:68.4''","C:61''
+F:62''",40,16.0cm,,1/11/2025,13.0cm,44,+4,11.0cm,"C:61''
+F:62''",0.10%,0.00%,-15.08%,-5.50%,51.8'',46,8 Burnner,28m/m,After Singeing width + 1'',170°C,Singeing + Heat Setting + Dryer(5box wash 85°C) +Black Padding +Sanforized
+X25003,,,,,,,,,318,2501020,100Y,,,"C:61''
+F:62''",43,12.0cm,,1/11/2025,11.0cm,47,+4,12.0cm,"C:60.8''
+F:61.8''",2.90%,-1.20%,-15.20%,-3.70%,51.5'',50,8 Burnner,,,,"Singeing + Heat Setting + Dryer(5box 85°C, black padding 140GPL) + Sanforized"
+X25003,,,,,,,,,318,2501020,100Y,"C:67.8''
+F:68.2''","C:66.5''
+F:67.4''","C:61''
+F:62''",43,12.0cm,,1/11/2025,11.0cm,47,+4,12.0cm,"C:60.8''
+F:61.8''",2.90%,-1.20%,-15.20%,-3.70%,51.5'',50,8 Burnner,30m/m,After Singeing width + 1'',165°C,Singeing + Heat Setting + Dryer(5box wash 85°C) +Black Padding +Sanforized
+X25001,,"4176X52
+8ring(Nishat)X10-40D(Lycra, Sunray), 3/1RHT",Black #9L,Jennyfer,,,,,201,2501033,220Y,,,"C:62.2''
+F:63''",52,15.0cm,,1/21/2025,12.0cm,60,+8,12.0cm,"C:61.7''
+F:62.7''",-0.89%,-0.29%,-12.15%,0.00%,54.2'',60,8 Burnner,30m/m,After Singeing width + 1'',165°C,Singeing + Heat Setting + Dryer + Sanforized
+X25001,,"4176X52
+8ring(Nishat)X10-40D(Lycra, Sunray), 3/1RHT",Black#9L,Jennyfer,,,,,102,24121135,Rest Quat.,"C:67.6''
+F:68.2''","C:66.5''
+F:67''","C:62''
+F:63''",52,12.0cm,,1/9/2025,11.5cm,60,+8,10.5cm,"C:61.5''
+F:62.5''",0.00%,0.70%,11.38%,2.00%,54.5'',60,8 Burnner,30m/m,After Singeing width + 1'',165°C,Singeing + Heat Setting + Dryer(5box 60°C) + Sanforized
+X25001,,"4176X52
+8ring(Nishat)X10-40D(Lycra, Sunray), 3/1RHT",Black#9L,Jennyfer,,,,,102,24121135,60Y,"C:67.6''
+F:68.2''","C:66.5''
+F:67.4''","C:60.2''
+F:61.2''",52,14.0cm,,1/9/2025,11.0cm,60,+8,10.0cm,"C:69.6''
+F:60.5''",-1.90%,0.40%,-14.90%,0.00%,51.2'',60,8 Burnner,30m/m,After Singeing width + 1'',165°C,Singeing + Heat Setting + Dryer(5box 60°C) +Sanforized
+X24264,RNS090-12R5,,,,,,,,119,2404373,126Y,"C:67''
+F:68''","C:65.8''
+F:66.8''","C:59''
+F:60''",50,12.0cm,,12/8/2024,11.0cm,56,+6,10.5cm,"C:57''
+F:58''",-2.93%,0.80%,-22.46%,-4.00%,44.2'',58,8 Burnner,30m/m,After Singeing Width + 2'',170°C,Singeing + Heat Setting +Desized+Dryer +Sanforized
+X24248-1,RNS100-21R6C,,,,,,,,508,24111028,70Y,"C:68''
+F:69''","C:67.5''
+F:68.2''","C:62.2''
+F:63''",40,18.0cm,,11/11/2024,14.0cm,48,+8,11.0cm,"C:62.2''
+F:63''",-3.20%,-2.30%,18.30%,0.00%,50.8'',48,8 Burnner,30m/m,After Singeing width + 1'',160°C,Singeing + Heat Setting + Dryer(5box 60°C) +Sanforized
+X24222-2,,,,,,,,,199,2409908,60Y,"C:64.5''
+F:65.2''","C:60''
+F:60.7''","C:60''
+F:60.5''",60,10.5cm,,10/4/2024,6.0cm,67,+7,7.0cm,"C:56.8''
+F:51.4''",-1.90%,2.80%,-8.80%,-0.80%,51.8'',67,8 Burnner,30m/m,After Singeing width + 1'',160°C,Singeing + Heat Setting +Desized+Dryer +Sanforized(Face down)
+X24222-1,,,,,,,,,119,2409908,60Y,"C:59''
+F:60''","C:64.2''
+F:65.1''","C:59''
+F:60''",60,10.5cm,,10/4/2024,6.0cm,66,+6,6.5cm,"C:55.2''
+F:56''",-1.60%,2.80%,-10.30%,-0.70%,49.5'',67,8 Burnner,30m/m,After Singeing width + 1'',170°C,Singeing + Heat Setting +Desized+Dryer +Sanforized(Face down)
+X24221-2,,,,,,,,,508,2409902,75Y,,,"C:61''
+F:62''",52,15.5cm,,,13.5cm,61,+9,10.5cm,"C:55''
+F:55.9''",-2.81%,-2.23%,11.81%,0.00%,48.5'',61,8 Burnner,30m/m,After Singeing width + 1'',150°C,Singeing + Heat Setting + Dryer(5box 60°C) +Semi_Mercerized+Sanforized
+X24221-1,,,,,,,,,508,2409902,83Y,"C:60''
+F:59''","C:58.8''
+F:59.8''","C:58.8''
+F:59.8''",52,12.5cm,,9/29/2024,12.5cm,61,+9,11.5cm,"C:57.8''
+F:58.8''",-2.75%,1.83%,14.87%,0.31%,49.2'',61,8 Burnner,30m/m,After Singeing width + 2'',160°C,Singeing +Dryer(5box)+Heat Setting + Sanforized
+X24220,,,,,,,,,512,2408798,37Y,"C:61''
+F:51.8''","C:61''
+F:62''","C:57.8''
+F:58.8''",42,15.0cm,,9/29/2024,11.0cm,49,+7,13.0cm,"C:57.4''
+F:58.4''",1.24%,3.26%,16.89%,2.50%,47.7'',50,8 Burnner,30m/m,After Singeing width + 2'',160°C,Singeing +Heat Setting + Dryer(5box)+ Sanforized
+X24216,RNPS070-08R5,,,,,,,,120,2409812,100Y,"C:63.5''
+F:64''","C:57.6''
+F:58.3''","C:54''
+F:54.8''",55,14.0cm,,9/5/2024,8.0cm,63,+8,8.5cm,"C:51.8''
+F:52.4''",-3.00%,2.00%,-14.80%,-0.50%,44.1'',63,8 Burnner,31m/m,60'',160°C,Singeing +Heat Setting + Dryer(5box)+ Sanforized
+X24214,,,,,,,,,223,2408794,50Y,"C:55.4''
+F:56.3''","C:55.5''
+F:56.2''","C:55.5''
+F:56.3''",50,9.5cm,,8/21/2024,12.0cm,58,+8,11.0cm,"C:54.5''
+F:55.6''",-0.30%,-3.20%,-17.40%,0.00%,45.0'',58,8 Burnner,28m/m,After Singeing width + 2'',170°C,Singeing + Dryer(5box) +Heat Setting + Sanforized
+X24196,RNS100-21R12B,"4464X40
+8RN(Nishat) X 12-40D N.S(Nishat), 3/1RHT",Black+PD(#12B),C&A,60''--61'',#-(13--17)%,,10.25oz,105,2502097,165Y,"C:67.5''
+F:68.6''","C:66.5''
+F:67.5''","C:61''
+F:60''",40,15.5cm,,3/19/2025,15.0cm,45,+5,13.0cm,"C:61.2''''
+F:62.4''",-1.50%,-0.60%,-15.03%,-4.00%,52.0'',46,8 Burnner,28m/m,"After Singeing width +1""",170°C,Singeing + H/S + Dreyer(5box 85°C wash)+ Black Padding 140GPL) + Sanforized
+X24196,,,,,,,,,404,24111028,78Y,,,"C:61.5''
+F:62.6",40,19.0cm,,12/29/2024,11.5cm,47,+7,10.5cm,"C:61.6''
+F:62.8''",4.50%,-1.49%,-14.40%,1.00%,52.7'',46,8 Burnner,,,,Singeing + Heat Setting + Dryer(5box 85°C+140GPL black padding) + Sanforized
+X24196,,,,,,,,,110,24111072,102Y,,,"C:60.5''
+F:61.7''",40,14.0cm,,1/2/2025,11.0cm,46,+6,11.0cm,"C:62.2''
+F:64.2''",1.20%,2.90%,-15.80%,-2.20%,51.5'',46,8 Burnner,,,,Singeing + Heat Setting + Dryer(5box 85°C+140GPL black padding) + Sanforized
+X24196,,,,,,,,,404,24111028,78Y,"C:68''
+F:69.2''","C:67.4''
+F:68.5''","C:61.5''
+F:62.6''",40,19.0cm,,12/23/2024,11.5cm,47,+7,10.5cm,"C:61.6''
+F:62.8''",4.50%,-1.49%,-14.40%,1.00%,52.7'',46,8 Burnner,30m/m,After Singeing width + 1'',165°C,Singeing + Heat Setting + Dryer(5box wash 85°C) +Black Padding(140GPL)+Sanforized
+X24112-2,,"3888x42
+7ring(Salek) x 8-40D(NS) Nishat 3/1RHT",Indigo#5,P&B,,,,,617,2505434,120Y,,,"C:62.2''
+F:63''",42,15.0cm,,7/2/2025,11.5cm,48,+6,12.5cm,"C:62''
+F:62.8''",2.24%,-0.89%,-11.70%,0.00%,54.7'',48,8 Burnner,32m/m,After Singing width + 1'',170°C,Singeing + Heat Setting + Dryer(5Box 60°C) + Sanforized
+X24112-2,,,,,,,,,416,2507616,80Y,"C:68.5''
+F:69''","C:67''
+F:68''","C:63.2''
+F:64.2''",42,17.0cm,,7/23/2025,16.0cm,49,+7,12.5cm,"C:61.5''
+F:62.2''",-1.60%,0.20%,-11.40%,-1.00%,55.1'',50,8 Burnner,32m/m,After Singeing width + 1'',170°C,Singeing + Heat Setting + Dryer(5box 60°C) +Sanforized
+X24112-1,RNS-120-02R5,"3888x42
+7ring(Salek) x 8-40D(NS) Nishat 3/1RHT",Indigo#5,Zara Kids,,,,,405,2502170,121Y,,,"C:59''
+F:60''",42,17.0cm,,3/1/2025,14.5cm,51,+9,12.0cm,"C:62.5''
+F:63.6''",-1.34%,-1.47%,-10.80%,1.00%,55.7'',50,8 Burnner,32m/m,After Singing width + 1'',170°C,Singeing + Heat Setting + Dryer(5Box 60°C) + Sanforized
+X24112-1,RNS120-02R5,"3888x42
+7ring(Nishat)X8-40D (Lycra), 3/1RHT",Indigo#5,Radiance Group/LIDL,61''--62'',#  -(10-14)%,,12.00oz,203,2508739,328Y,"C:68''
+F:68.5''","C:67''
+F:68''","C:62''
+F:63''",42,16.0cm,,8/23/2025,14.0cm,50,+8,12.0cm,"C:62.2''
+F:63.2''",-2.80%,-1.40%,11.20%,1.20%,55.2'',49,8 Burnner,32m/m,After Singeing width + 1'',175°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X24104,,,,,,,,,105,,60Y,"C:62.2''
+F:63.8''","C:60.7''
+F:61.8''",,,,,12/23/2024,,,+0,,,,,,,,,8 Burnner,28m/m,After Singeing width + 1'',160°C,Singeing + Heat Setting + Dryer(5box 60°C) +Sanforized
+X24090,RNS-100-21R6C,"4468X40
+8rn(Nishat)X12-40D N.S(Nishat), 3/1RHT",Dark Indigo#6C,C&A,,,,,105,2503233,310Y,"C:67.6''
+F:68.7''","C:66''
+F:67.5''","C:62.7''
+F:63.7''",40,16.5cm,,3/15/2025,12.0cm,47,+7,11.0cm,"C:62.5''''
+F:63.5''",-0.62%,0.00%,-20.00%,-1.00%,50.0'',48,8 Burnner,30m/m,"After Singeing width +1""",160°C,Singeing + H/S + Dryer(5box 60°C) + Sanforized
+X24090,RNS100-21R6C,"4464x40
+8ring(Nishat)x12-40D N.S(Nishat), 3/1 RHT",Dark Indigo#6C,Test Purpose,,,,,103,2502133,100Y,,,"C:67''
+F:68.4''",40,17.0cm,,2/20/2025,12.5cm,47,+7,12.0cm,"C:62.7''
+F:63.7''",-1.52%,0.38%,-16.20%,-1.00%,52.5'',48,8 Burnner,28m/m,"After Singeing width +1""",175°C,Singeing + Heat Setting + Dryer(5Box 60°C) + Sanforized
+X24090,RNS100-21R6C,"4464x40
+8ring(Nishat) X 12-40D Lycra(Nishat), 3/1RHT",Dark Indigo#6C,Al-muslim,,,,,506,24121157,168Y,,,"C:62.6''
+F:63.5''",40,19.0cm,,1/30/2025,11.5cm,47,+7,12.5cm,"C:62''
+F:63''",-0.40%,1.70%,-20.80%,-1.80%,49.1'',47,8 Burnner,30m/m,After Singeing Width + 1'',160°C,Singeing + Heat Setting + Dryer(5Box 60°C) + Sanforized
+X24090,RNS100-21R6C,"4464x40
+8ring(Nishat) X 12-40D(Nishat), 3/1RHT",Dark Indigo#6C,Kornor,,,,,305,24121157,210Y,,,"C:62.7''
+F:63.7''",40,14.5cm,,12/29/2024,14.0cm,47,+7,11.0cm,"C:61''
+F:62''",-2.60%,-1.70%,-18.30%,-1.30%,50.0'',48,8 Burnner,30m/m,After Singeing Width + 1'',160°C,Singeing + Heat Setting + Dryer + Sanforized(Twill UP)
+X23257,RNPS100-32R12B,"6480x90
+16ring(Nishat)X16oe(Milon)+150-40D(black)Hangzhou,1:2,SBC(RHT)",Black(9S)+PD(#12B),Warptex,54''--55'',#-(12-16)%,,9.80oz,219,2503265,120Y,"C:67.8''
+F:67.3''","C:64.8''
+F:66.2''","C:57.7''
+F:58.8''",90,3.0cm,,4/7/2025,4.0cm,102,+12,4.0cm,"C:54.5''
+F:55.8''",0.60%,1.36%,-14.60%,-1.00%,,,8 Burnner,30m/m,"After Singeing width +2""",140°C,Singeing + Heat Setting+ Dryer(5box 85°C wash) +Black padding 140GPL )+Sanforized(Twill Up)
+X23196-3,,,,,,,,,508,2410940,100Y,"C:66.3''
+F:67.3''","C:65''
+F:65.8''","C:57''
+F:58''",50,14.5cm,,11/19/2024,14.5cm,58,+8,11.0cm,"C:55.5''
+F:56.5''",-1.34%,-5.86%,-12.43%,-1.46%,48.6'',57,8 Burnner,30m/m,After Singeing width + 1'',155°C,Singeing + Heat Setting + Dryer(5box 60°C) +Sanforized
+X23196-2,,"4464x50
+7OE(Badsha)+7rsl(Q476)(Nishat) (2:8) X 16-70D(Sunray), 3/1 RHT",Indigo#5,Bexhim Global,,,,,120,2503191,100Y,"C:
+F:","C:
+F:","C:61.2'
+F:62.2''",50,15.0cm,,3/7/2025,14.0cm,59,+9,13.0cm,"C:60.3''
+F:61.2''",-2.29%,1.23%,17.50%,0.00%,49.7'',59,8 Burnner,33m/m,After Singeing width + 1'',165°C,Singeing +  Heat Setting + Dryer(5box 60°C) Sanforized
+X23196-2,,,,,,,,,508,2410940,50Y,"C:66.3''
+F:67.3''","C:65.5''
+F:66.5''","C:61''
+F:62''",50,15.0cm,,11/10/2024,12.0cm,59,+9,7.5cm,"C:60''
+F:61''",-3.03%,2.10%,16.16%,1.06%,50.0'',59,8 Burnner,33m/m,After Singeing width + 1'',165°C,Singeing + Heat Setting + Dryer(5box 60°C) +Sanforized
+"X23045-2
+Rest Qnt.",Rest Qut.,,,,,,,,207,2507626,,"C:53.8''
+F:54.8''","C:54''
+F:54.8''","C:53.8''
+F:54.8''",50,15.0cm,,7/31/2025,11.0cm,58,+8,10.5cm,"C:53.3''
+F:54.5''",-2.16%,-0.28%,-7.10%,0.00%,49.7'',56,8Burnner,30m/m,"After Singeing width +2""",180°C,Singeing+Semi-Mercerized+Heat Setting +Dryer(5box 60°C)+Sanforized
+X23045-2,,,,,,,,,207,2507626,,"C:53.8''
+F:54.8''",,"C:54''
+F:54.8''",50,15.0cm,,7/28/2025,11.0cm,58,+8,9.5cm,"C:53''
+F:54''",-0.72%,-2.02%,-7.50%,1.90%,49.0'',56,8Burnner,30m/m,"After Singeing width +2""",180°C,Singeing+Heat Setting +Dryer(5box 60°C)+Sanforized
+X22104-2,,,,,,,,,105,24121136,60Y,,,"C:55.7''
+F:56.8''",55,13.5cm,,1/2/2025,8.5cm,64,+9,9.0cm,"C:53.8''
+F:54.5''",-1.00%,1.80%,-18.70%,-1.00%,43.7'',65,8 Burnner,,,,Singeing + Heat Setting + Dryer + Sanforized
+X22104-2,,,,,,,,,105,24121136,60Y,,,"C:56.5''
+F:57.5''",55,15.0cm,,12/23/2024,10.0cm,64,+9,9.5cm,"C:54.2''
+F:55''",-1.55%,-0.77%,-19.55%,0.00%,43.6'',64,8 Burnner,28m/m,After Singeing width + 1'',160°C,Singeing + heat Setting + Dryer + Sanforized
+X22078,PRPS105-09R5,"4686x50
+9oeX16-70D T/Raw(Recycle) , Xuzhou, 3/1RHT",Indigo#5,SF Denim,,,,,104,24111026,150Y,"C:66''
+F:67''","C:65.9''
+F:66.9''","C:61''
+F:62''",50,13.0cm,,11/19/2024,10.5cm,58,+8,11.0cm,"C:57.8''
+F:58.8''",-1.00%,-2.10%,-12.10%,-1.60%,58.8'',58,8 Burnner,28m/m,After Singeing width + 2'',165°C,Singeing + Heat Setting +Desized+Dryer +Sanforized
+X22078,PRPS105-09R5,"4686x50
+9oeX16-70D T/Raw(Recycle) , Xuzhou, 3/1RHT",Indigo#5,SF Denim,57''--58'',# -(11--15)%,,10.25 0z,207,2508698,130Y,"C:65.3''
+F:66.3''","C:64.5''
+F:65''","C:60.7''
+F:61.5''",50,13.5cm,,8/12/2025,10.5cm,56,+6,10.5cm,"C:57.5''
+F:58.5''",2.80%,-1.79%,-9.90%,-2.40%,51.8'',58,8Burnner,28m/m,After Singeing width + 2'',165°C,Singeing+Heat Setting+Desized+Dryer(1Box 50°C) + Sanforized
+X1812268-2,RNS090-12R5,,,,,,,,223,2409912,120Y,"C:54.8''
+F:56.5''","C:56.5''
+F:57''","C:56.5''
+F:57''",50,10.0cm,,10/3/2024,8.0cm,56,+6,10.0cm,"C:54.2''
+F:54.8''",1.25%,3.12%,15.12%,5.00%,46.0'',59,8 Burnner,28m/m,60'',180°C,Singeing + Desized + Dryer + Heat Setting + Sanforized
+X170255-2,RES105-10R6,,,,,,,,320,2409834,30Y,"C:62.8''
+F:63.5''","C:62.5''
+F:63.2''","C:58''
+F:59''",52,12.5cm,,9/13/2024,9.5cm,61,+9,10.0cm,"C:57.2''
+F:58''",-0.04%,4.00%,-16.60%,-1.00%,47.6'',62,8 Burnner,28m/m,After Singeing width + 1'',165°C,Singeing +Heat Setting +Dryer(5box)+ Sanforized
+RNS-100-21R6C,,"4464x40
+8ring(Nishat) x 12-40D N.S(Nishat), 3/1 RHT",Dark Indigo#6C,Al-Islam Textile,,,,,305,2502133,284Y,,,"C:59''
+F:60''",40,16.5cm,,3/1/2025,13.0cm,48,+8,12.0cm,"C:63''
+F:64''",-1.95%,1.05%,-15.70%,1.00%,53.1'',47,8 Burnner,28m/m,After Singeing Width + 1'',175°C,Singeing + Heat Setting + Dryer(5Box 60°C) + Sanforized
+RNS-100-14R8D,Rest Qut.,"4968x53
+10OE(Badsha)+10ring slub(YT-260)Nishat X 16-70D N.S(Sunrey), 3/1RHT",Blue Black#8D,,,,,,310,2501041,116Y,,,"C:58''
+F:58.8''",53,12.5cm,,1/25/2025,11.5cm,60,+7,11.0cm,"C:56.2''
+F:56.7''",-0.40%,1.20%,-18.60%,-2.00%,45.7'',63,8 Burnner,28m/m,After Singeing width + 1'',160°C,Heat Setting + Desized (Singeing + Heat Setting + Desized + Dryer + Sanforied(Old))
+RNS-100-14R8D,1st process,"4968x53
+10OE(Badsha)+10ring slub(YT-260)Nishat X 16-70D N.S(Sunrey), 3/1RHT",Blue Black#8D,,,,,,310,2501041,60Y,,,"C:57.8''
+F:58.5''",53,11.5cm,,1/21/2025,10.0cm,60,+7,11.0cm,"C:54.7''
+F:55.8''",2.05%,1.58%,-23.35%,-2.80%,45.0'',62,8 Burnner,30m/m,After Singeing width + 1'',155°C,Singeing + Heat Setting + Desized + Dryer + Sanforized
+RES095-07R6,,,,,,,,,241,,,56'',"C:56''
+F:56.8''",,,,,9/4/2024,,,+0,,,,,,,,,8 Burnner,30m/m,After Singeing width + 4'',160°C,Singeing + Desized+ Heat Setting + Sanforized
+PRS-115-03R9S,,"4200x42
+7oe(Badsha)X10-40D(Lycra) Sunray , 3/1 RHT",Black #9S,BexHim Global,,,,,318,2503194,103Y,,,"C:60.2'
+F:61.4''",42,14.0cm,,3/9/2025,11.0cm,48,+6,13.5cm,"C:60.1''
+F:61.2''",2.16%,2.80%,-14.14%,-3.50%,51.6'',49,8 Burnner,32m/m,After Singeing Width + 1'',150°C,Singeing + Heat Setting+Desized+Dryer(1box cold wash) +Sanforized
+X25277,X24203(copy),"3780X35
+7siro Low TM 3.8(Nishat) X 6 Tencel(Envoy) , 3/1RHT",Natural #1,Vouge Sourcing,64''--65'',#+/-(3--4)%,,11.50oz,610,2509809,50Y,"C:66''
+F:66.7''","C:67''
+F:68''",,,,,,,,+0,,,,,,,,,8 Burnner,28m/m,M/C width 69'',120°C,Singeing+Dryer(1box cold water)+Heat Setting(cold Water)+Sanforized
+X22262-1,Face Up,"7200 X 85
+20ring(Compact BCI, Nishat)X20ring(Compact BCI, Nishat)+150-40D(N.S /Black 1:2)Hngzhou, SBC(RHT)",Black + PD#12A,Mardy,51''--52''(cut),#-(11--15)%,,9.00oz,219,2509842,100Y,"C:66''
+F:67''","C:63.5''
+F:64.8''","C:55.4''
+F:56.7''",85,5.0cm,,9/29/2025,8.0cm,96,+11,7.0cm,"C:53.5''
+F:54.5''",0.00%,-2.20%,-14.30%,0.00%,45.8'',96,8burnner,32m/m,After Singeing Width + 1'',145°C,Singeing+Heat Setting+Dryer(5box wash 85°C)+Black Padding 140GPL +Sanforized
+X25301,X25268(copy),"4216X41
+10siro X 7oe(Badsha), 3/1RHT -- STF",Dark Inidgo#6,STR ,65''full,#-(6)%,,65X41,509,2510903,60Y,"C:61.7''
+F:62.7''","C:65.2''
+F:66.8''","C:61.7''
+F:62.7''",41,11.0cm,,10/13/2025,11.0cm,43,+2,11.0cm,"C:64.2''
+F:65.4''",-1.50%,1.50%,-4.90%,-10.80%,61.0'',49,8Burnner,28m/m,67''(+5'' [Dryer width]),120°C,"Singeing(2B,S:45)+Dryer(1box cold water)+Heat Setting(cold Water)+Sanforized(PPI= +2)"
+X19005,RNPS085-18L3,"6480X100
+20ring(Nishat)X20rn(Nishat)+150+40D(Hanzhou), (1:2), SBC(LHT)",Grey#3,Warptex,49''--50'',# -(8--12)%,,8.50 oz,119,25010908,60Y,"C:63''
+F:64.7''","C:61''
+F:62.6''","C:57''
+F:58.5''",100,5.0cm,,10/14/2025,8.0cm,111,+11,3.5cm,"C:56''
+F:57''",-2.60%,-5.50%,-13.30%,2.80%,48.5'',111,8Burnner,30m/m,A/S width  +  1'',165°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+"X19005
+Rest Qty",RNPS085-18L4,"6480X100
+20ring(Nishat)X20rn(Nishat)+150+40D(Hanzhou), (1:2), SBC(LHT)",Grey#3,Warptex,49''--50'',# -(8--12)%,,9.50 oz,119,25010908,90Y,"C:63''
+F:64.7''","C:60.8''
+F:62.4''","C:55.6''
+F:57''",100,6.0cm,,10/16/2025,6.0cm,114,+14,3.0cm,"C:54.6''
+F:56''",-1.50%,-3.50%,-18.40%,0.50%,44.5'',114,8Burnner,30m/m,A/S width  +  1'',155°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25327,,"5940X55
+12rsl(yt-260)Nisaht+12rsl(yt-204)Nishat+12ring(Badsha)(3:3:4) X 20-40DT/Raw, 4/1 Satin RHT",Blue Black#8I,Sainsbury Ladies,53''(cut),,,10.00 oz,118,2510975,100Y,"C:65''
+F:66.8''","C:63.5''
+F:64.8''","C:59.2''
+F:60.8''",55,8.0cm,,11/3/2025,7.5cm,65,+10,8.0cm,"C:56.8''
+F:58''",-1.07%,1.50%,-19.50%,2.30%,45.7'',64,8Burnner,30m/m,A/S width  +  1'',140°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25323,Important Note,"3797X43
+7rn(Nishat)X10Tencel(Nishat), 3/1RHT    (S.T.F)",Dark Indigo#06,Echotex / Sainburry,65.5 '',#-(5--6)%,,10.75oz,513,2503253,50Y,"C:63.4''
+F:64.4''","C:67.2''
+F:68.2''","C:63.4''
+F:64.4''",43,22.0cm,,10/29/2025,17.0cm,47,+4,16/17cm,"C:66.5''
+F:67.2''",1.60%,3.30%,-6.10%,-2.40%,62.4'',46,8Burnner,28m/m,69.5'',120°C,"Singeing+Dryer(1box cold water,New Dryer)+Heat Setting(1box cold Water)+Sanforized"
+X25330,RN125-08R55,"4060X44
+8ring(Nishat) X 60e(Badsha), 3/1RHT,          (S.T.F)","Natural #1, ",,,,,13.25oz,206,2506496,45Y,"C:63''
+F:64''","C:66.5''
+F:67.5''","C:63''
+F:64''",44,,,10/29/2025,12.5cm,46,+2,12.0cm,"C:66.8''
+F:67.8''",0.00%,1.20%,-7.30%,-8.90%,61.9'',51,8Burnner,28m/m,69.5'',120°C,Singeing+Old Dryer(1box cold water)+Heat Setting(cold Water)+Sanforized
+X25127,PRS105-09R6,"3752X43
+7oe Low TM(Salek)X12-40D(N.S, BCI), 3/1RHT",Dark Inidgo#6,Trim Water,59.5'',#-(12--16)%,,10.50oz,222,2507645,75Y,"C:64.5''
+F:65.5''","C:63.7''
+F:64.8''","C:59.5''
+F:60.4''",43,13.5cm,,10/29/2025,10.5cm,51,+8,12.0cm,"C:59.2''
+F:60.2''",-0.74%,0.41%,-13.80%,2.00%,51.0'',50,8Burnner,30m/m,A/S  width + 1'',175°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25334,X25323 (copy),"4060X43
+7ring(Badsha) X 10 Tencel(TM 4.00) 3/1RHT",Indigo#5,Echotex / Sainburry,,#(5--6)%,,10.75oz,302,2510909,80Y,"C:64''
+F:64.8''","C:66.8''
+F:67.8''","C:64''
+F:64.8''",43,17.0cm,,11/5/2025,15.5cm,47,+4,17.5cm,"C:66.6''
+F:67.5''",3.70%,0.00%,-5.85%,-5.40%,62.7'',49,8Burnner,28m/m,Machine : 69.5'',120°C,Singeing+Dryer(1box cold water)+Heat Setting (1box cold water)+Sanforized
+X25336,,"4176X38
+8ring(Nishat)X6OE(Badsha)+6ring(Nishat)(1:1), 3/1RHT",Indigo#5,C&A,67''--68'',#-(3--6)%,,9.50--9.75 oz,306,2510919,72Y,"C:64.6''
+F:65.5''","C:67''
+F:68''","C:64.6''
+F:65.5''",38,14.5cm,,11/5/2025,15.5cm,47,+9,13.5cm,"C:67''
+F:68''",2.05%,1.74%,-4.77%,-17.00%,63.8'',45,8Burnner,28m/m,Machine : 69.5'',120°C,Singeing+Dryer(1box cold water)+Heat setting(1box cold water)+No Sanforize
+X25147,PRS105-09R6C,"3906x43
+7oe Low TM(Salek must) X 12-40D(Nishat, BCI),3/1RHT",Dark Indigo#6C,Trim Wear,61''--62'',#-(12--16)%,,10.50oz,107,2506530,106Y,"C:67.5''
+F:68.2''","C:66''
+F:67.2''","C:62.2''
+F:63.5''",43,14.5cm,,11/10/2025,12.0cm,51,+8,11.0cm,"C:61.8''
+F:63''",-1.40%,0.00%,-12.60%,1.80%,54.0'',49,8Burnner,30m/m,A/S width  +  1'',175°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25147,PRS105-09R6C,"3906x43
+7oe Low TM(Salek must) X 12-40D(Nishat, BCI),3/1RHT",Dark Indigo#6C,Trim Wear,61''--62'',#-(12--16)%,,10.50oz,107,2506530,80Y,"C:67.5''
+F:68.2''","C:66.6''
+F:67.7''","C:62.2''
+F:63.5''",43,17.5cm,,11/13/2025,12.0cm,51,+8,12.0cm,"C:62''
+F:63.2''",0.00%,-1.80%,-13.50%,1.00%,53.6'',50,8Burnner,30m/m,A/S width  +  1'',175°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+RNS110-07R8I,Test,,,,,,,,117,,50Y,"C:67.8''
+F:67.4''","C:66.4''
+F:67.4''",,,,,3/20/2025,,,+0,,,,,,,,,8Burnner,30m/m,A/S width  +  1'',150°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+RNS110-07R8I,Test,,,,,,,,117,,50Y,"C:67.8''
+F:68.2''","C:66.4''
+F:67.4''",,,,,3/20/2025,,,+0,,,,,,,,,8Burnner,30m/m,A/S width  +  1'',165°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25330,,"4060X44
+8rn(Nishat)X6oe(Badsha) , 3/1R.H.T  (S.T.F)",Natural#01,Sainburry,65~66'',-(4~8)%,,11.5oz,,2505469,130Y,"C:63.7''
+F:64.5","C:66.5''
+F:67.5''","C:63.7''
+F:64.5",44,14.5cm,,11/22/2025,11.5cm,46,+2,11.0cm,"C:66''
+F:66.8''",0.30%,-0.90%,-6.06%,-9.00%,62.0'',50,8Burnner,28m/m,69.5'',120°C,Singeing+Dryer(cold water)+Heat Setting(cold water)+Sanforized
+X22123,,"3564x42
+7ring(Nishat) X 8-40D (N.S) Nishat) , 3/1 R.H.T",Indigo#5,Nitex,61~62'',-(11~15)%,+/-(3~4)%,11.00oz,414,25111026,100Y,"C:67''
+F:68''","C:66.5''
+F:67.5''","C:62.3''
+F:63.3''",42,18.5cm,,11/25/2025,13.0cm,48,+6,12.5cm,"C:61.5''
+F:62.8''",0.40%,-2.60%,,,51.8'',49,8 Burnner,25m/m,A/S width  +  2'',170°C,Singeing+Heat Setting+Dryer(1box cold water)+Sanforized
+X25365,,"5184X58
+12rsl(yt-199) Nishat X 20-70D(N.S)Sunray , 3/1 R.H.T",Dark Indigo#6c,Trim Wear,54~55''(cut),,,8.80 oz,510,25111049,120Y,"C:64''
+F:64.5''","C:64''
+F:65''","C:60''
+F:61''",58,12.5cm,,11/26/2025,9.0cm,67,+9,10.0cm,"C:59''
+F:60''",1.80%,0.00%,-16.10%,-0.50%,49.5'',67,8 Burnner,28m/m,A/S width  +  2'',180°C,Singeing+Heat Setting+Dryer(1box cold wash)+Sanforized
+X25372,X25200,"3564X40
+9rn+9siro slub(7052)(6:4)X12(75D-dty)-40D(Xuzhou), 3/1R.H.T",Blue Black#8D,Zara/Style:Goya(Team B),52'',-(10~14)%,+/-(3~4)%,9.00oz,414,,90Y,"C:66.2''
+F:67''","C:65''
+F:66''","C:57.5''
+F:58.5''",40,12.0cm,11/20/2025,12/4/2025,10.5cm,45,+5,12.0cm,"C:57''
+F:58''",3.30%,-0.78%,-20.10%,-0.80%,45.5'',46,8 Burnner,30m/m,A/S width  +  2'',150°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25381,X25200,"3888X42
+7oe(Badsha)X8-40D(Nishat,BCI), Herringbone",Indigo#5,MBI(Team B),62~63'',-(10~14)%,+/-(3~4)%,12.25oz,222,25111052,160Y,"C:67''
+F:68.5''","C:66.2''
+F:67.5''","C:61''
+W:62.7''",42,18.5cm,,12/4/2025,13.5cm,47,+5,10.5cm,"C:62''
+F:63.4''",-0.77%,-3.20%,-12.40%,-3.80%,54.9'',47,8 Burnner,32m/m,A/S width  +  1'',170°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25391,,"4176X42
+8oe(Badsha)X8-40D(Nishat), Herringbone",Indigo#5,MBI International,,,,11.00oz,222,25111065,100Y,"C:67.5''
+F:68.5''","C:66.8''
+F:67.8''","C:62.8''
+F:63.8''",42,17.0cm,,12/7/2025,10.0cm,49,+7,11.5cm,"62.4''
+F:63.5''",-0.60%,2.10%,-12.80%,-1.70%,54.4'',50,8 Burnner,30m/m,A/S width  +  1'',170°C,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25310,,,,,,,,,319,25111071,160Y,,,"C:63''
+F:64''",60,6.0cm,,12/4/2025,5.0cm,66,+6,5.5cm,"C:63.7''
+F:64.5''",-1.28%,0.00%,-1.40%,-0.80%,62.8'',66,9 Burnner,,,,Singeing+Heat Setting+Dryer(5box 60°C)+Sanforized
+X25397,PRPS105-09R5,"4686x50
+9RN(Milan)X16-70D T/Raw Recycle, Xuzhou), 3/1 R.H.T ",Indigo#5,Top Ten/ Test smaple,57~58'',-(11~15)%,-(3~6)%,10.25oz,223,25121092,75Y,"C:65''
+F:66''","C:64''
+F:65''","C:60.3''
+F:61.3''",50,11.5cm,,12/10/2025,8.5cm,57,+7,9.0cm,"C:57.5''
+F:58.2''",-0.15%,-0.45%,-11.60%,-1.50%,50.8'',58,8Burnner,28m/m,A/S width + 1'',165°C,Singeing+Heat Setting+Jigger Desized+Dryer(1Box cold water) + Sanforized
+X24175,,"3564X42
+7ring(Badsha) X 8-40D(BCI, Nishat) , 3/1 R.H.T",Indigo#5 + PD(#5D),Mardy Jeans,58~59'',-(9~13)%,-(3~6)%,11.00oz,205,2510909,120Y,"C:67''
+F:67.8''","C:66.5''
+F:67.5''","C:63.8''
+F:55''",42,16.0cm,,12/22/2025,13.0cm,47,+5,12.0cm,"C:58.8''
+F:60''",0.30%,-1.30%,-11.20%,-1.40%,52.2'',48,8Burnner,25m/m,M/C width + 2'',165°C,Singeing+Heat Setting+Dryer(5box wash 85°C)+Padding(140gpl)+Sanforized
+X25431,RNPS085-25R5,"5984X60
+16rsl(yt-199)(Nishat) X 20-40D(Poly/Cotton/Raw)(Changzhou),3/1 R.H.T",Indigo#5,Michel Koas,51~52'',-(10~14)%,+/-(3~4)%,8.50oz,119,25121140,60Y,"C:63.5''
+F:64.4''","C:62.5''
+F:63.2''","C:58.8''
+F:59.6''",60,15.5cm,12/23/2025,12/29/2025,9.5cm,65,+5,9.0cm,"C:57.5''
+F:58''",0.30%,-2.90%,-16.00%,-3.00%,48.3'',66,8Burnner,30m/m,A/S width + 1'',155°C,Singeing+Heat Setting+Dryer(5box wash 60°C)+Sanforized
+X25423,PR100-06HB6,"4464X45
+10oe(Physical,BCI,BTL)X10-40D(Physical BCI), Herrinbone",Dark Indigo#6,Bitopi/Dunnes ,58~59,,+/-(3~4)%,10~10.25 /oz,222,25121136,172Y,"C:67''
+F:68''","C:66.3''
+F:67.3''","C:61.3''
+F:62.5''",45,0.0cm,12/22/2025,12/28/2025,0.0cm,52,+7,0.0cm,"C:61.3''
+F:62.3''",-1.20%,-1.80%,-13.80%,-1.00%,52.8'',53,8Burnner,30m/m,A/S width + 1'',175°C,Singeing+Heat Setting+Dryer(5box wash 60°C)+Sanforized
+X26017,PRS105-09R6C,"3906x43
+7OE(B)x12-40D(Nishat,BCI), 3/1 R.H.T",Indigo#05,MKT,61~62'',+/-(3~4)%,-(12~16)%,10.50oz,,25111052,120Y,,,,,,,,,,+0,,,,,,,,,8Burnner,30m/m,A/S width + 1'',175°C,Singeing+Heat Setting+Dryer(5box wash 60°C)+Sanforized
+X26007,,,,,,,,,301,25121151,40Y,,,"C:60.5''
+F:61.5''",42,17.0cm,,1/7/2026,13.5cm,49,+7,12.0cm,"C:60.6''
+F:61.6''",-2.40%,-0.30%,-15.10%,-1.00%,51.5'',50,8Burnner,,,,Singeing+Heat Setting+Dryer(5box wash 60°C)+Sanforized
+X26008,,,,,,,,,301,25121151,50Y,,,"C:60.5''
+F:61.5''",42,17.0cm,,1/7/2026,13.5cm,49,+7,12.0cm,"C:60''
+F:61''",-2.28%,0.00%,-14.16%,1.00%,51.5'',50,,,,,Singeing+Heat Setting+Dryer(5box wash 60°C)+Sanforized
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,+0,,,,,,,,,,,,,
