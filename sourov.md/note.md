@@ -129,3 +129,13 @@ lets create padding sample backend and UI code
 First Build Data Model of Padding sample data. go to the padding sample data csv file in the public dicrectory('PaddingSample' datas are store in mongdb database in the current collection) and check the header of the every column. then create data model.check every issue and finishing date.
 keep the padding sample backend logic and code inside the samplesData.
 Last build UI in the where having the padding sample data UI(keep every field carefully). lets go.
+
+
+
+
+make a admin panel where only i can access, user not accesible in the admin panel.
+In the admin panel, add a feature where i can control every single user.Suppose How many user have register and verify.And i can do one think about user. suppose if a user authorized then i can deal with the user.Build this type of feature.
+
+second, I need a feature somekind of where i can deal with regular sample data. suppose if i want to update , read, edit and delete data for regular sample data. then i can do with those type of data. suppose i want to push data from the regular sample data section with multple data ata same time.If it posible then add this feature.
+
+And do this , later i will add more category of sample data.

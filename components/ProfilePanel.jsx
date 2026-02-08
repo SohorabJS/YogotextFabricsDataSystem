@@ -93,6 +93,8 @@ export default function ProfilePanel({ user, isOpen, onClose }) {
             </div>
           </div>
 
+              nullable
+
           {/* Account Creation Date */}
           {userData.createdAt && (
             <div className="bg-blue-50 rounded-lg p-4">
@@ -106,10 +108,45 @@ export default function ProfilePanel({ user, isOpen, onClose }) {
               </p>
             </div>
           )}
+
+          {/* Admin Badge */}
+          {userData.isAdmin && (
+            <div className="bg-purple-50 rounded-lg p-4 border-l-4 border-purple-600">
+              <label className="text-xs font-semibold text-purple-600 uppercase">Account Status</label>
+              <p className="text-purple-600 font-semibold mt-1">👑 Administrator</p>
+            </div>
+          )}
+
+          {/* Authorization Status */}
+          <div className="bg-gray-50 rounded-lg p-4">
+            <label className="text-xs font-semibold text-gray-500 uppercase">Authorization Status</label>
+            <div className="flex items-center gap-2 mt-1">
+              {userData.authorized ? (
+                <>
+                  <span className="w-2 h-2 bg-green-600 rounded-full"></span>
+                  <p className="text-green-600 font-semibold">✅ Authorized</p>
+                </>
+              ) : (
+                <>
+                  <span className="w-2 h-2 bg-yellow-600 rounded-full"></span>
+                  <p className="text-yellow-600 font-semibold">⏳ Pending Authorization</p>
+                </>
+              )}
+            </div>
+          </div>
         </div>
 
         {/* Footer Actions */}
         <div className="border-t border-gray-200 p-6 space-y-3">
+          {userData.isAdmin && (
+            <Link
+              href="/admin"
+              onClick={onClose}
+              className="w-full px-4 py-2 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition text-center block"
+            >
+              ⚙️ Admin Panel
+            </Link>
+          )}
           <Link
             href="/profile"
             onClick={onClose}

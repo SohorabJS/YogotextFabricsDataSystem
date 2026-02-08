@@ -58,11 +58,18 @@ export default function SignIn() {
       }
 
       // Store token and user info
-      if (data.accessToken) {
+      if (data.userResponse) {
         localStorage.setItem('authToken', data.accessToken);
         localStorage.setItem('user', JSON.stringify(data.userResponse));
-        // Dispatch custom event to notify other components
-        window.dispatchEvent(new Event('authStateChanged'));
+        
+        // Small delay to ensure localStorage is updated before event dispatch
+        setTimeout(() => {
+          window.dispatchEvent(new Event('authStateChanged'));
+          window.dispatchEvent(new StorageEvent('storage', {
+            key: 'user',
+            newValue: JSON.stringify(data.userResponse)
+          }));
+        }, 100);
       }
 
       // Show success toast

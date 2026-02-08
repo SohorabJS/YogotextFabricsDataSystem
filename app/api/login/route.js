@@ -32,6 +32,8 @@ export async function POST(request) {
       last_name: user.last_name,
       email: user.email,
       verified: user.verified,
+      isAdmin: user.isAdmin || false,
+      authorized: user.authorized || false,
       createdAt: user.createdAt,
     }
 

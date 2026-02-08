@@ -38,6 +38,8 @@ export async function GET(request) {
       email: user.email,
       id_number: user.id_number,
       verified: user.verified,
+      isAdmin: user.isAdmin || false,
+      authorized: user.authorized || false,
       createdAt: user.createdAt,
     }
 

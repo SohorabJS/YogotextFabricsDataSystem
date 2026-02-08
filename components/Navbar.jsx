@@ -31,17 +31,27 @@ export default function Navbar() {
     checkUserStatus();
     setIsLoaded(true);
 
-    // Listen for auth state changes
+    // Listen for auth state changes with a small delay to ensure localStorage is updated
     const handleAuthStateChange = () => {
-      checkUserStatus();
+      setTimeout(() => {
+        checkUserStatus();
+      }, 50);
+    };
+
+    const handleStorageChange = (e) => {
+      if (e.key === 'user' || e.key === null) {
+        setTimeout(() => {
+          checkUserStatus();
+        }, 50);
+      }
     };
 
     window.addEventListener('authStateChanged', handleAuthStateChange);
-    window.addEventListener('storage', handleAuthStateChange);
+    window.addEventListener('storage', handleStorageChange);
 
     return () => {
       window.removeEventListener('authStateChanged', handleAuthStateChange);
-      window.removeEventListener('storage', handleAuthStateChange);
+      window.removeEventListener('storage', handleStorageChange);
     };
   }, []);
 
@@ -67,15 +77,25 @@ export default function Navbar() {
           {/* Right Side: Buttons */}
           <div className="hidden md:flex gap-4 items-center">
             {user ? (
-              <button
-                onClick={() => setIsProfilePanelOpen(true)}
-                className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
-              >
-                <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-blue-600 text-sm font-bold">
-                  {user.first_name?.charAt(0)?.toUpperCase()}
-                </div>
-                👤 Profile
-              </button>
+              <>
+                {user.isAdmin && (
+                  <Link
+                    href="/admin"
+                    className="flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition font-semibold"
+                  >
+                    ⚙️ Admin Panel
+                  </Link>
+                )}
+                <button
+                  onClick={() => setIsProfilePanelOpen(true)}
+                  className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                >
+                  <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-blue-600 text-sm font-bold">
+                    {user.first_name?.charAt(0)?.toUpperCase()}
+                  </div>
+                  👤 Profile
+                </button>
+              </>
             ) : (
               <>
                 <Link
