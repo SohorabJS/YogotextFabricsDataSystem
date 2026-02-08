@@ -7,13 +7,10 @@ const paddingSampleSchema = new mongoose.Schema({
   sampleCode: {
     type: String,
     required: true,
-    trim: true,
   },
 
   sampleItemCode: {
     type: String,
-    required: true,
-    trim: true,
   },
 
   processingType: {

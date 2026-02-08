@@ -55,6 +55,15 @@ const FIELD_CONFIG = {
       { key: 'ppiPlus', label: 'PPI(+)' },
     ]
   },
+  machine: {
+    label: 'Machine & Heat',
+    fields: [
+      { key: 'burnerQ', label: 'Burner Qty' },
+      { key: 'machineSpeed', label: 'Machine Speed' },
+      { key: 'machineWidthSetting', label: 'Machine Width Setting' },
+      { key: 'tempSetting', label: 'Temperature Setting' },
+    ]
+  },
   washing: {
     label: 'After Washing',
     fields: [

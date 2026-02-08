@@ -1,0 +1,321 @@
+Sample Code,Sample Item Name,Processing Type,issues Date,Finishing Date,Loom,Warpping No,Yards,Construction,Color,Customer Name,Customer Required Width,Requrie Length %,Required Width-%,Required Weight(OZ),"After 
+Weaving PPI","Af. Sanfo 
+PPI",PPI(+),"Af. Padding
+ Width",Af. Sanfo Width,"Af. Padding
+ Skew","Af. Sanfo 
+Skew",AF.Wash Skew,"Af. Wash 
+PPI","Af. Wash 
+Width","Af. Wash 
+Width %","Af. Wash 
+Length %","Sq. Box %
+Right Hand","Sq. Box % 
+Left Hand",Sample Processing details
+"X25154-1 (Taiwan)
+",,"Padding
+Natural Black",,7/1/2025,110,2506529,60Y,"4752X41
+9oe(Badsha)X10-40D(N.S, Nishat)+10-70D(N.S, Nishat)(1:1), 3/1LHT",Natural + PD#12,Cherng En Enterprice,,,,,41,47,+6,"C:59.5''
+F:60''","C:57.8''
+F:58.8''",11.5cm,13cm,11.0cm,48,49.0'',15.20%,3.4%,-1.23%,3.08%,"Singeing +Dryer(5box wash 85°)+Dryer(Black Padding 220 GPL) + Sanforized
+"
+"X25154-2 (Taiwan)
+",,"Padding
+Natural Black",,7/1/2025,110,2506529,60Y,"4752X41
+9oe(Badsha)X10-40D(N.S, Nishat) 3/1LHT",Natural + PD#12,Cherng En Enterprice,,,,,41,46,+5,"C:60''
+F:61''","C:59.3''
+F:60''",16.0cm,13.0cm,11.5cm,48,51.0'',13.90%,3.3%,1.08%,-1.54%,"Singeing +Dryer(5box wash 85°)+Dryer(Black Padding 220 GPL) + Sanforized
+"
+X25158-1(Taiwan),,Padding,,7/1/2025,110,2505243,130Y,,,,,,,,41,46,+5,"C:56''
+F:57''","C:54.8''
+F:55.7''",15.5cm,13.0cm,9.5cm,47,46.5'',-15.14%,-6.0%,0.79%,1.57%,Singeing + Dryer(Paddding 140GPL) + Sanforized
+X25158-2(Taiwan),,Padding,,7/1/2025,110,2505243,,,,,,,,,41,45,+4,"C:56.8''
+F:57.8''","C:55.5''
+F:56.7''",15.5cm,13.0cm,11.0cm,50,48.2'',-13.10%,-5.0%,-0.40%,0.30%,Singeing + Dryer(padding 140GPL) + Sanforized
+X25149,RNS-120-02R5,Padding,,6/28/2025,617,2505434,125Y,"3888X42
+7ring(Badsha)X8-40D(N.S, Nishat), 3/1RHT",Indigo#5+PD(#5D),Natural Indigo,61''--62'',,# -(10-14)%,12.00 oz,42,48,+6,"C:61.3''
+F:62''","C:61.2""
+F:62""",14.5cm,13.0cm,15.5cm,49,56.7'',7.30%,-3.0%,-1.34%,-1.49%,"Singeing   +Dryer(5box wash 85°C, speed-30m/m)+ Dryer(Padding 140GPL) +  Sanforized"
+"X241562
+Tencel",,Padding,,6/28/2025,607,2504350,121Y,,,,,,,,42,48,+6,"C:60.6''
+F:61.4'","C:60""
+F:60.8""",14.5cm,13.0cm,15.5cm,47,62.0'',3.30%,1.0%,3.21%,0.70%,Singeing   + Dryer(Padding 140GPL) +  Sanforized
+X24145,,Padding,,6/28/2025,618,2506536,124Y,"4176X38
+8oe Low TM (Salek)X9oe(Badsha), 3/1RHT",Black(9S)+PD(#12B),Natural Denim,63''--64'',,#(3--4)%,10.00 oz,38,45,+7,"C:63.7''
+F:64.4'","C:63.8""
+F:64.6""",14.0cm,13.5cm,12.0cm,49,48.0'',1.00%,3.0%,-1.40%,-0.70%,"Singeing +Dryer(5box wash 85°C, speed-30m/m)+ Dryer(Black Padding 140GPL) + Sanforized"
+X25134,X22258-1,Padding,,6/24/2025,606,2506520,120Y,"4176X40
+7ring(Badsha)X7oe(Badsha, CMIA), 3/1RHT",Black 9L + PD#12A,Natural Indigo/Pull&Bear,61''--62'',,# +/-(3--4)%,12.20 oz,40,44,+4,"C:64.8''
+F:65.8''","C:64.8''
+F:65.5''",15.5cm,14.0cm,13.0cm,46,64.0'',1.20%,2.5%,0.28%,0.00%,"Singeing +Dryer(5box wash 85°C, speed-30 m/m)+Dryer(Black padding 140GPL )+Sanforized"
+X23057-1,RN-130-05R12A,padding,,5/31/2025,510,2505452,,"4464X42
+7ring(Badsha, Organic, ocs) X 7oe(Badsha), 3/1RHT",,,,,,,42,47,+5,"C:67''
+F:68''","C:65.8''
+F:66.7''",16.0cm,11.0cm,13.5cm,49,65.3'',0.75%,-2.00%,4.30%,1.00%,Singeing +Dryer(5box 85°C)+ Dryer(Black padding 140GPL )+Sanforized
+X22341-2,PR-095-02L12A,Padding,,5/31/2025,123,2505464,105y,"5002X37
+10oe(Badsha)X10oe(Badsha), 3/1LHT",Black#9L+PD,Dengyi Sourcing,63''--64'',,#+/-(3--4)%,9.50 oz,37,43,+6,"C:64''
+F:64.8''","C:64.1''
+F:64.7''",17.5cm,16.5cm,14.0cm,44,63.7'',0.60%,-1.60%,-0.85%,0.00%,Singeing +Dryer(5box 85°C wash)+ Dryer(Black padding 140GPL )+Sanforized
+X25108,,Padding,,5/22/2025,122,2505429,105y,"7200x95
+20ring(compact)Nishat X 20ring(compact, Nishat)+150-40D/Black (N.S, Hangzhou), SBC(RHT)",black(#9S)+PD(#12B),Sainsbury-Echotex,,,,,95,108,+13,"C:53''
+F:54''","C:50''
+F:51''",10.0cm,9.0cm,5.5cm,108,44.0'',12.00%,-0.50%,-0.77%,-5.46%,Singeing +Dryer(5box 85°C wash)+ Dryer(Black padding 140GPL )+Sanforized
+X24189,SR085-01R12A,Padding,,5/22/2025,613,2505428,120y,"4464X42
+10siro(Badsha)X12oe(Badsha, BCI), 3/1RHT",Black + PD(#12A),Windy Group,62'' -- 63'',,# +/-(3--4)%,8.60 oz,42,46,+4,"C:62.5''
+F:63.5''","C:63''
+F:63.5''",17.0cm,14.0cm,14.0cm,47,63.7'',1.11%,-3.60%,0.85%,1.71%,Singeing + Dryer(Black padding 140GPL )+Sanforized
+X25114,,Padding,,5/24/2025,609,2505435,110y,,,,,,,,39,43,+4,"C:63''
+F:63.5''","C:63''
+F:64''",15.5cm,11.5cm,11.0cm,43,63.1'',0.15%,-2.00%,-0.14%,-0.85%,Singeing + Dryer(Black padding 140GPL )+Sanforized
+X23057-1,,Padding,,5/26/2025,510,2505452,110y,"4464X42
+7ring(Badsha, Organic, ocs) X 7oe(Badsha), 3/1RHT",Black(96L)+PD#12A,Zara Man-Natural Indigo,64''--65'',,#+/-(3--4)%,13.00 oz,42,48,+6,"C:65.8''
+F:66.7''","C:65.7''
+F:66.6''",15.0cm,12.5cm,13.5cm,49,64.8'',-1.30%,-1.70%,3.10%,0.71%,Singeing +Dryer(5box 85°C)+ Dryer(Black padding 140GPL )+Sanforized
+X25082,RN085-07R5,Padding,,5/5/2025,301,2504356,122y,"4692X44
+12ring(Nishat)X12ring(Nishat) 3/1RHT",black(#9S)+PD(#12B),SF Denim/ C&A,58''--59'',,# (3--4)%,8.30 oz,44,49,+5,"C:58''
+F:59''","C:59''
+F:60''",13.0cm,11.5cm,13.5cm,50,60.0'',1.69%,-1.80%,1.69%,1.71%,Singeing + Dryer(Black padding 140GPL )+Sanforized
+X22238,,Padding,,5/30/2025,311,2504350,140y,"4521X42
+10siro(Nishat)X 10oe(Badsha) + 10ring(Nishat), 3/1RHT",Black(9L)+PD(#12A),SF Denim/ C&A,59''--60'',,# +/-(3--4)%,9.50 oz,42,47,+5,"C:60''
+F:61''","C:60.8''
+F:61.8''",13.0cm,10.0cm,13.0cm,49,61.0'',-0.30%,-2.70%,1.98%,1.29%,"Singeing+Dryer(5box 85°C wash, speed-30m/m)+Dryer(Black padding 140GPL )+Sanforized"
+X25063,,Padding,,4/23/2020,310,2504324,93y,"4464X48
+8ring(Nishat)X12ring(Nishat), 3/1RHT",Black# 9L + PD #12A,SF Denim/ C&A,63''--64'',,#(3--4)%,10.5-10.80oz,48,53,+5,"C:61''
+F:61.8''","C:61.7''
+F:62.3''",13.5cm,11.5cm,14.0cm,55,61.2'',-0.64%,-2.30%,3.30%,0.28%,"Singeing +Dryer(5box 85°C wash, speed-30)+Dryer(Black padding 140GPL )+Sanforized"
+X25068,,Padding,,4/23/2020,203,2504324,145y,"4464X41
+8rn(Nishat)X7oe(Badsha), 3/1RHT",Black#9I + Black,STR,64''--65'',,# +/-(3--4)%,12.00 oz,41,46,+5,"C:64''
+F:64.8''","C:64.8''
+F:65.5''",13.5cm,11.0cm,12.5cm,47,64.0'',-1.23%,-3.00%,-1.28%,0.43%,Singeing+Dryer(5box 85°C wash)+Dryer(Black padding 140GPL )+Sanforized
+X25067,,Padding,,4/21/2025,412,2503197,207y,"4205X39
+8RN(Badsha)X8oe(Badsha),3/1RHT",Indigo+PD(#5D),Sainsbury,65''--66'',,# +/-(3--4)%,11.00 oz,39,43,+4,"C:65''
+F:65.7''","C:65''
+F:66''",12.5cm,11.5cm,13.0cm,45,64.8'',0.30%,-5.20%,0.40%,1.30%,Singeing + Dryer(Black padding 140GPL )+Sanforized
+X21228,RN-095-11R12A,Padding,,4/17/2025,206,2504302,260y,"4216x40
+9ringX10OE(Badsha), 3/1RHT",Black(9L)+PD,Warptex,59''--60'',,# +/-(3--4)%,9.50 oz,40,44,+4,"C:59.5''
+F:60.5''","C:60.6''
+F:61.7''",12.5cm,11.0cm,13.0cm,47,60.5'',-0.10%,-3.80%,4.90%,-2.70%,Singeing + Dryer(5box wash)+Deryer Black padding 140GPL + Sanforized
+X23257,RNPS-100-32R12B,Heat Setting + Padding,,4/7/2025,219,2503265,120y,"6480x90
+16ring(Nishat)X16oe(Milon)+150-40D(black)Hangzhou,1:2,SBC(RHT)",Black(9S)+PD(#12B),Warptex,54''--55'',,#-(12-16)%,9.80oz,90,102,+12,"C:57.7''
+F:58.8''","C:54.5''
+F:55.8''",3.0cm,4.0cm,5.0cm,105,46.5'',-14.60%,-1.00%,0.60%,1.36%,Singeing + Heat Setting+Dryer(5box wash 85°C)+ Dryer(Black padding 140GPL )+Sanforized(Twill Up)
+X25170,,Padding,,7/10/2025,207,2507583,145y,,,,,,,,51,58,+7,"C:57''
+F:58.7''","C:56.4''
+F:57.8''",16.0cm,10.0cm,9.5cm,58,52.0'',-7.80%,0.00%,-0.58%,-1.30%,Singeing + Dryer(Black padding 140GPL+Semi-Mercerized )+Sanforized
+X24142,,Padding,,7/10/2025,406,2507585,120y,"4200x37
+7oeX70oe(Badsha), 3/1RHT",Black(9L)+PD(#12A),Warptex,61'' -- 62'',,# +/-(3--4)%,12.30 oz,37,41,+4,"C:61''
+F:61.7''","C:61''
+F:61.8''",16.0cm,12.0cm,12.5cm,43,60.5'',-0.80%,-4.30%,2.02%,0.28%,Singeing +Dryer(5box Wash 85°C)+ Dryer(Black padding 140GPL ) +Sanforized
+X25167/X180259,,Padding,,7/7/2025,309,2507573,136y,"4464X45
+7rsl(Nishat)+7oe(Badsha) 1:9 X 10-70D N.S(BCI, Nishat), 3/1RHT",Black(9L)+PD(#12A0,Natural Indigo-Pull&Bear,61'',,# -(14-18)%,12.40 oz,45,51,+6,"C:61.4''
+F:62.4''","C:60''
+F:61''",15.0cm,13.0cm,12.0cm,51,52.2'',-13.00%,-0.50%,0.00%,-0.40%,Singeing + Dryer(Black padding 140GPL )+Sanforized
+PR-120-02R9S,,Padding(Test perpose production),,7/4/2025,,,120y,,,,,,,,44,50,+6,"C:60''
+F:60.7''","C:60.2''
+F:60.8''",15.5cm,13.5cm,14.0cm,49,60.0'',0.30%,1.00%,0.70%,0.98%,Singeing + Dryer(Black padding 140GPL )+Sanforized
+X25161,RN-095-04R5,Padding,,7/4/2025,504,2507559,98y,"4600X45
+10rsl(yt-199)Nishat X 12oe(Badsha)+10rls(yt-199)Nishat (2:1), 3/1RHT",Black (#9S) + PD(#12A),SF Denim/ C&A,60''--61'',,#(3--4)%,9.50 oz,44,49,+5,"C:59''
+F:59.8''","C:59.5''
+F:60.2''",13.0cm,11.5cm,12.5cm,51,59.0'',0.00%,-4.80%,3.19%,0.29%,Singeing +Dryer(5box 85°C wash)+ Dryer(Black padding 140GPL )+Sanforized
+X25165,,Padding,,7/4/2025,413,2506536,38y,"3906X39
+8oe Low TM(Salek)X9oe(Badsha), 3/1RHT",Black(9S)+PD(#12B),Natural Denim,63''--64'',,# +/-(3--4)%,10.00 oz,39,42,+3,"C:63.8''
+F:64.5''","C:63''
+F:64''",14.0cm,16.0cm,13.0cm,43,63.8'',-1.26%,-4.40%,-3.75%,0.00%,"Singeing+Dryer(5box 85°C wash, speed-30m/m)+ Dryer(Black padding 140GPL )+Sanforized"
+X25156,,Padding,,7/5/2025,617,2507562,130y,,,,,,,,43,51,+8,"C:62''
+F:63''","C:63.4''
+F:64.1''",15.0cm,12.0cm,12.0cm,50,53.1'',-13.70%,1.00%,1.49%,-1.19%,Singeing + Dryer(Black padding 140GPL )+Sanforized
+X25194,,Padding,,7/19/2025,310,2507613,100y,"4464x44
+8oeLow TM(Salex)X 10ring(Badsha), 3/1RHT",Black #9L,Natural Denim /Zara,63''--64'',,#(3--4)%,10.50 oz,44,50,+6,"C:63.7''
+F:64.7''","C:63.2''
+F:64.2''",13.0cm,12.0cm,12.0cm,49,63.8'',-0.90%,2.00%,0.00%,1.41%,Singeing + Dryer( Black padding 140GPL) + Sanforized
+X25195,,Padding,,7/19/2025,310,2507614,100y,"4464x44
+7.5ring low TM(Nihsat)X10ring(Badsha), 3/1RHT",Black + Padding(9L),Natural Denim /Zara,63''--64'',,#(3--4)%,10.50 oz,44,51,+7,"C:63.4''
+F:64.5''","C:63.4''
+F:64.5''",12.0cm,11.0cm,11.5cm,50,64.0'',-0.90%,2.20%,1.26%,-0.42%,Singeing +Dryer(5box wash)+ Dryer (Black Padding 140GPL) + Sanforized
+X21228,RN-095-11R12A,Padding,,3/3/2025,205,2502166,100y,"4216X40
+9ringX10OE(Badsha), 3/1RHT",Black(#9L)+PD(#12A),SQUARE Denim/Michael Kors,59''--60'',,#(3--4)%,9.50 oz,40,46,+6,"C:59''
+F:60''","C:59''
+F:60.6''",13.0cm,13.0cm,14.0cm,47,60.2'',-1.00%,-1.00%,1.79%,-0.56%,Singeing + Dryer (Black Padding 140GPL) + Sanforized
+X25019,,Paddding,,2/23/2025,103,2502099,115y,"4464X48
+8oe+7rsl, (7:3) X 12-40D(Nishat), 3/1RHT",Black(#9T) + PD(#12D),Sainsbury,59''--60'',,#(10-14)%,11.00 oz,48,54,+6,"C:61''
+F:62''","C:60.5''
+F:61.5''",16.5cm,12.5cm,13.0cm,56,53.6'',11.40%,-2.00%,2.26%,0.75%,"Singeing + Dryer(5box 85 °C wash ,speed-30m/m)+Black Padding 210GPL) + Sanforized "
+X25026,,Padding,,2/23/2025,614,2502135,130y,"4752X52
+10ring(Nishat)+10rsl(yt-233)Nishat X 16-40D (Nishat) + 16-70D(sunray)2:1, 3/1RHT",black(9T)+PD(#12D),Just James,55''--56'',,#(15--19)%,9.75 oz,52,57,+5,"C:56.3''
+F:57.5''","C:55.6''
+F:56.6''",16.5cm,11.0cm,11.0cm,58,46.5'',-16.30%,-3.40%,-0.30%,0.00%,"Singeing +Dryer(5box wash 85°C, speed 30m/m)+ Dryer (Black Padding 210GPL) + Sanforized"
+X22303-1,PR-120-05R12A,Padding,,2/16/2025,407,2502124,126y,"
+8OE","Black + Padding(#9L, 12A)",,,,,,39,43,+4,"C:64.8''
+F:59.5''","C:65''
+F:66''",13.0cm,12.5cm,12.0cm,45,64.5'',-0.76%,-3.40%,-0.72%,1.44%,"Singeing + Dryer(5box 85 °C,  Black Padding 140GPL) + Sanforized "
+X23060,RN-110-26R12A,Padding,,2/16/2025,512,2502126,156y,"4216X35
+7ring(BTL)X10oe(Badsha), 3/1RHT",Black(#9L)+PD(#12A),TM group,60'' -- 61'',,# -(3--4)%,11.00 oz,35,39,+4,"C:59.5''
+F:60.5''","C:61.4''
+F:62.6''",13.0cm,13.5cm,14.0cm,40,61.7'',-0.48%,-3.80%,1.73%,11.82%,"Singeing + Dryer(5box wash 85 °C,  Black Padding 140GPL) + Sanforized "
+X23250,PR-105-08R12A,Padding,,2/16/2025,506,24121166,125y,"4464X43
+9oe(Badsha)X9oe(Badsha), 3/1RHT",Black +PD(#12A),Warptex,63''--64'',,#+/-(3--4)%,10.50 oz,40,48,+8,"C:63.2''
+F:64.2''","C:63.2''
+F:64''",13.0cm,13.5cm,13.5cm,49,63.0'',-0.32%,-2.60%,0.71%,-1.14%,"Singeing + Dryer(5box 85 °C, speed-30 m/m)+  Black Padding 140GPL +  Sanforized"
+X25018,,Padding,,2/4/2025,108,2502097,50y,"4464X48
+8ring(Nishat)X12-40D(Nishat), 3/1RHT",Black 9S,Sainsbury,61''--62'',,,11.50 oz,48,54,+6,"C:59.9''
+F:61''","C:59.2''
+F:60.2''",17.0cm,12.5cm,11.5cm,55,52.0'',-12.16%,-2.00%,-2.13%,0.76%,"Singeing +Dryer(5box wash 85°C , Speed-30m/m)+Black Padding 210GPL) + Sanforized"
+X25019,,Padding,,2/4/2025,202,2502099,67y,"4464X48
+8oe+7rsl Nishat, (7:3) X 12-40D(Nishat), 3/1RHT",Black #9T ,Sainsbury,60''--61'',,#(10-14)%,11.00 oz,48,56,+8,"C:59.5''
+F:60.8''","C:60''
+F:61''",17.5cm,13.0cm,12.5cm,57,55.2'',-11.33%,-1.00%,-1.35%,0.60%,"Singeing + Dryer(5box 85 °C wash ,speed-30m/m)+Black Padding 210GPL) + Sanforized "
+X25009,,Black Padding,,1/20/2025,201,2501052,210y,"4176X52
+8ring(Nishat)X10-40D(Lycra, Sunray), 3/1RHT",Black 9L + PD#12A,Jennyfer,61''--62'',,#(11--15)%,11.50 oz,52,57,+5,"C:60.8''
+F:61.8''","C:61''
+F:62''",16.5cm,13.0cm,11.5cm,57,55.1'',-9.67%,-3.00%,-1.05%,-0.60%,"Singeing+Heat Setting+Dryer(5box 85°C wash , Speed-30m/m)+Black Padding +Sanforized"
+X25008,,Black Padding,,1/20/2025,107,24121163,70y,,,,,,,,52,57,+5,"C:56''
+F:57''","C:54.7''
+F:55.8''",15.0cm,10.0cm,9.5cm,57,45.5'',-16.80%,-2.70%,0.31%,0.62%,"Singeing + Dryer(5box 85 °C,  Black Padding 210GPL) + Sanforized "
+X24289,,Padding,,1/11/2025,209,250109,177y,,,,,,,,49,53,+4,"C:55.2''
+F:56.2''","C:56.8''
+F:57.5''",6.5cm,5.0cm,6.0cm,55,58.2'',2.40%,3.40%,1.70%,-0.10%,"Singeing + Dryer(5box 85°C, 140GPL black) + Sanforized"
+X25002,,Black Padding,,1/12/2025,207,24121142,60y,"4464X48
+7rsl(Nishat)+8oe(Badsha)6:4 X 12-40D(Nishat), 3/1RHT",Black 9L + PD#12A,Sainbury / Echotex,60''--61'',,£(9--13)%,11.70 oz,48,55,+7,"C:61.2''
+F:62.2''","C:60.2''
+F:61.2''",17.0cm,13.0cm,12.0cm,56,53.8'',-10.60%,-1.80%,-0.70%,-1.30%,"Singeing+Dryer(5box 85°C wash, Speed-30m/m)+Dryer(Black padding 180GPL )+Sanforized"
+X25002,,Black Padding,,1/13/2025,106,2507027,208y,,,,,,,,48,53,+5,"C:61''
+F:62''","C:60.6''
+F:61.7''",14.0cm,12.0cm,12.5cm,54,53.7'',-11.38%,-3.60%,0.60%,1.37%,"Singeing+Dryer(5box 85°C wash, Speed-30m/m)+Dryer(Black padding 180GPL )+Sanforized"
+X25008,,Black Padding,,1/13/2025,107,24121163,30y,"4752X52
+10ring(Nishat)+10rsl(ty-233)(Nishat)6:4 X16-40D(Nishat)+16-70D(Sunray)2:1, 3/1RHT",Black 9L + PD#12A,just James,55''--56'',,,9.50 oz,52,58,+6,"C:56''
+F:57''","C:55''
+F:56''",16.0cm,10.0cm,8.5cm,59,46.0'',-16.30%,-3.90%,0.00%,0.62%,"Singeing + Dryer(5box 85°C, 180GPL black) + Sanforized"
+X25003,,Heat Setting + Padding,,1/11/2025,318,2501020,100y,,,,,,,,43,47,+4,"C:61''
+F:62''","C:60.8''
+F:61.8''",12.0cm,11.0cm,12.0cm,50,51.5'',-15.20%,-3.70%,2.90%,-1.20%,"Singeing+Heat Setting+ Dryer(5box 85°C, 140GPL black) + Sanforized"
+X25004,,Heat Setting + Padding,,1/11/2025,318,2501020,102y,,,,,,,,40,44,+4,"C:61''
+F:62''","C:61''
+F:62''",16.0cm,13.0cm,11.0cm,46,51.8'',-15.80%,-5.50%,0.10%,0.00%,"Singeing +Heat Setting+ Dryer(5box 85°C, 140GPL black) + Sanforized"
+X24196,,Heat Setting + Padding,,12/29/2024,404,24111028,78y,,,,,,,,40,47,+7,"C:61.5''
+F:62.6''","C:61.6''
+F:62.8''",19.0cm,11.5cm,10.5cm,46,52.7'',-14.40%,1.00%,-1.49%,4.50%,Singeing + Heat Setting+ Dryer(5box 85°C+Black padding 140GPL )+Sanforized
+X24287,,,,1/2/2025,108,24121162,122y,,,,,,,,52,59,+7,"C:55.6''
+F:56.7''","C:55.6''
+F:56.7''",13.0cm,9.0cm,9.0cm,60,45.7'',-17.80%,-1.00%,0.40%,-0.60%,Singeing +Dryer(5box 85°C + 140GPL black padding) + Sanforized
+X24196,,Heat Setting + Padding,,1/2/2025,110,24111072,102y,,,,,,,,40,46,+6,"C:60.5''
+F:61.7''","C:61.2''
+F:62.4''",14.0cm,11.0cm,11.0cm,46,51.5'',-15.80%,-2.20%,1.20%,2.90%,Singeing + Heat Setting+ Dryer(5box 85°C)+Black padding 140GPL )+Sanforized
+X22206-1,,,,1/2/2025,110,24121166,125y,,,,,,,,36,40,+4,"C:63.5''
+F:64.2''","C:63.5''
+F:64.2''",12.5cm,15.0cm,12.0cm,41,63.0'',-0.70%,-4.70%,-0.80%,0.20%,Singeing +Dryer(5box 85°C + 140GPL black padding) + Sanforized
+X24284,,,,12/21/2024,110,24121142,120y,,,,,,,,48,56,+8,"C:61''
+F:62''","C:60.5''
+F:61.5''",12.5cm,12.5cm,12.5cm,56,53.5'',-11.50%,0.50%,0.75%,2.25%,Singeing + Dryer(5box 85°C + 140GPL black padding) + Sanforized
+X23048-2,RNS-090-13R12A,,,12/21/2024,205,24121119,210y,,,,,,,,55,62,+7,"C:57.5''
+F:58.5''","C:56.5''
+F:57.4''",9.0cm,10.0cm,10.0cm,63,46.0'',-18.00%,-2.50%,0.57%,1.57%,Singeing + Dryer(5box 85°C + 140GPL black padding) + Sanforized
+X25199,,Heat Setting→Semi_Mercerized→Padding,,7/30/2025,220,2507635,100y,"4464X51
+9ring slub(yt-393)Nishat X 12-40D(Nishat), 3/1RHT",Dark Indigo + PD(#6A),Sainsbury,56''--57'',,# -(6--10)%,11.00oz,51,59,+8,"C:56.2''
+F:58''","C:55.2''
+F:56.8''",14.0cm,10.0cm,10.0cm,57,51.1'',-7.40%,2.90%,0.70%,-1.30%,Singeing+Heat Setting +Semi_Mercerized+Padding+Sanforized
+X25209,,Padding,,7/30/2025,109,2504317,102y,"4176X39
+8ring(Nishat)X8oe(Badsha), 3/1RHT","Black + Padding(#9s, 12A)",Al-muslim Group / Zara,65''--66'',,#(3--4),11.00 oz,39,46,+7,"C:62.2''
+F:63.2''","C:63.5''
+F:64.4''",15.0cm,13.0cm,13.0cm,46,63.9'',2.80%,-1.40%,-0.14%,-0.63%,Sineging+Dryer(5box 60°C)+Black Padding 140GPL+Sanforized
+X22214,RNS110-07R8I(copy),Black Padding,,8/10/2025,308,2507666,126y,,,,,,,,45,51,+6,"C:58''
+F:59''","C:59''
+F:60''",16.0cm,14.0cm,11.5cm,52,50.7'',-14.00%,-1.00%,-1.67%,1.99%,Sineging+Dryer(5box 60°C)+Black Padding 140GPL+Sanforized
+X25206,,Black Padding,,8/2/2025,110,2507651,125y,,,,,,,,52,59,+7,"C:59''
+F:60''","C:58''
+F:59''",15.0cm,14.0cm,12.5cm,59,49.4'',-14.80%,-0.60%,-4.20%,1.20%,Sineging+Dryer(5box 60°C)+Black Padding 140GPL+Sanforized
+X25248,RNS-110-07R8I,Black Padding,,8/20/2025,Isses Date,,,7oe+9oe (2:8) ,Black + Padding#12D,Sainsbury,,,,,,,+0,,,,,,,,,,,,Singeing+Dryer(5box Wash)+Black Padding(210GPL)+Sanforized
+X25255,,Black Padding,,9/2/2025,514,2508732,70y,"4400X42
+7oe(B) X 8oe(Badsha, BCI), 3/1RHT","Black#9L, PD#12A",Stradivarious,63''--64'',,#  -(3--4)%,12.20 oz,42,47,+5,"C:64.5''
+F:65.7''","C:64''
+F:65''",12.0cm,12.5cm,14.0cm,47,62.8'',1.87%,4.50%,-0.56%,0.14%,Singeing+Dryer(5box Wash)+Black Padding(140GPL)+Sanforized
+X25165,,Back Padding,,8/25/2025,211,2508743,111y,"3906X39
+8oe Low TM(Salek)X9oe BCI, Badsha, 3/1RHT",black(#9S)+PD(#12B),MKT,62''--63'',,#  +/-(3--4)%,10.00 oz,,,+0,"C:62''
+F:63''","C:62.5''
+F:63.5''",,14.5cm,,44,63.0'',-0.80%,-1.00%,-0.42%,-1.40%,Singeing+Dryer(5box Wash)+Black Padding(140GPL)+Sanforized
+X25239,,Back Padding,,8/25/2025,614,2504350,94y,"4488X42
+10siro X 10rn Cotton/Linen(70+30), 3/1RHT",Black(#9L)+PD(#12A),MKT,60''--61'',,# +/-(3--4)%,9.25 oz,,,+0,"C:59.5''
+F:60.4''","C:59.5''
+F:60.5''",,12.5cm,,48,60.5'',-1.18%,-1.00%,0.42%,1.54%,Singeing+Dryer(5box Wash)+Black Padding(140GPL)+Sanforized
+X25247,,Back Padding,,8/27/2025,,,114y,,,,,,,,,,+0,"C:60''
+F:61''","C:59.5''
+F:60.5''",,14.0cm,,57,54.8'',-7.89%,1.70%,-1.44%,-2.60%,Singeing+Dryer(5box Wash)+Black Padding(210GPL)+Sanforized
+X25248,RNS110-07R8I(copy),Back Padding,,8/27/2025,505,25087511,112y,"4464X45
+7oe(Badsha)+9oe(Badsha)2:8 X 12-40D N.S(Nishat)",Black(#9T) + PD(#12D),Sainsbury,58''--59'',,# -(14--18)%,11.00 oz,,,+0,"C:60''
+F:61''","C:59.2''
+F:60.2''",,14.0cm,,53,51.4'',-13.20%,-1.00%,-0.30%,-1.05%,Singeing+Dryer(5box Wash)+Black Padding(210GPL)+Sanforized
+X25214,,Back Padding(210GPL),,7/28/2025,,Issues Date,,"4464X45
+7rsl(Nishat)+9oe(Badsha)X12-40D N.S(Nihsat, BCI), 3/1RHT",black(9T)+PD(#12D),Sainsbury,58''--59'',,# -(14--18)%,10.50 oz,,,+0,,,,,,,,,,,,Singeing+Dryer(5box Wash)+Black Padding(210GPL)+Sanforized
+X24180,,Padding,,9/2/2025,122,2508762,160y,"3726X43
+7rsl(Nishat)+7rn(Nishat)4:6 X 10-70D(Nishat, BCI)",Indigo+PD(#5D),ABA Group,56''-57'',,# -(13--17)%,11.30 oz,43,49,+6,"C:56''
+F:57''","C:55.2''
+F:56''",16.0cm,11.0cm,10.5cm,49,46.0'',-16.60%,-2.20%,-2.31%,0.77%,Singeing+Dryer(5box Wash)+Black Padding(140GPL)+Sanforized
+X25263,RN070-03R5,Black Padding,,9/10/2025,303,2509802,103y,"5480x55
+16ring(Nishat)X16ring(Nishat), 3/1RHT",Black#9L + PD#12A,SF Denim/ Top Ten,59''--60'',,#(3--4)%,7.20 oz,55,60,+5,"C:59''
+F:59.6''","C:60''
+F:60.6''",11.0cm,10.0cm,10.5cm,61,60.7'',-1.16%,-3.00%,1.71%,-0.56%,Singeing+Dryer(5box wash )+Black Padding 140GPL+Sanforized
+X25143,,Black Padding,,6/21/2025,Isses Date,,,"4488X42
+10siro(Nishat)X10 Tencel(Nishat), 3/1RHT",Black#9L + PD#12A,MKT,62''--63'',,# +/-(3--4)%,9.25 oz,,,+0,,,,,,,,,,,,Singeing+Dryer(5box wash 85°C)+Black Padding(140GPL)+Sanforized
+X25128,,Black Padding,,6/21/2025,,,,"4968X46
+10rsl(yt-199)Nishat+12oe(Badsha, BCI)4:6 X 10oe(Organic , ocs), 3/1RHT",Black#9L + PD#12A,Natural Denim(Zara Baby boys),63''-- 64'',,#(3--4)%,9.50 oz,46,53,+7,"C:64''
+F:64.8''","C:64''
+F:65''",16.0cm,12.0cm,12.0cm,53,64.0'',0.00%,0.0%,-0.70%,0.00%,"Singeing+Dryer(5box 85°C wash, speed-30 m/m)+Black Padding 140GPL +Sanforized"
+PR105-08R12A/X23250,Insert Shrinkage Data,Black Padding,,2/8/2025,506,24121166,,"4464x43
+9oe(Badsha)X9oe(Badsha), 3/1RHT",Black#9L + PD#12A,Fashion Tex/ Pull & Bear,63''--64'',,#(3--4)%,10.50 oz,,,+0,,,,,,,,,,,,Singeing+Dryer(5box wash 85°C)+Black Padding(140GPL)+Sanforized
+X22262-1,,"Black Padding,Face Up",,9/22/2025,219,2509842,102y,"7200X85
+20ring(compact, BCI)Nishat X 20ring(compact, BCI, Nishat)+150-40D(N.S/ Black 1:2) Hangzhou, SBC(RHT)",Black#9L + PD#12A,Madry Jeans,51''--52'',,#-(11--15)%,9.00 oz,85,96,+11,"C:51.4''
+F:52.4''","C:49''
+F:50''",4.0cm,6.0cm,6.5cm,96,42.0'',-14.20%,-1.80%,2.20%,-2.29%,Singeing+Heat Setting+Dryer(5box wash 85°C)+Black Padding+Sanforized
+RNS115-07R9L,BULK,Black Padding,,9/22/2025,,,,,,,,,,,,,+0,"C:60''
+F:61''","C:59.5''
+F:60.5''",14.5cm,12.0cm,11.0cm,57,54.6'',-8.20%,0.00%,-1.32%,-1.46%,Singeing+Dryer(5box wash 85°C)+Black Padding(140gpl)+Sanforized
+X22049,PR085-02R12A,Black Padding,10/30/2025,11/5/2025,504,2511984,155y,"5002X44
+12OE(Badsha, Physical BCI) X 12OE(Badsha, Physical BCI),3/1 R.H.T",Black + PD#12A,Windy Group,61~62'',-(3~6)%,+/-(3~4)%,8.30 oz,44,50,+6,"C:63.5''
+F:64.2''","C:64''
+F:64.8''",14.0cm,14.5cm,13.0cm,51,64.0'',0.00%,-2.80%,0.41%,-2.40%,Singeing+Dryer(5box 85°C)+Black Padding(140gpl)+Sanforized
+X25363,,140GPL Black padding,,11/17/2025,,25111026,100y,"4216X42
+7ring(Nishat) X7oe(Badsha) , 3/1 R.H.T",Indigo + PD(#05D),Maxnova/Pull&Bear,,3~4%,(3~4)%,12.75 oz,42,48,+6,"C:62.5''
+F:63''","C:61.6''
+F:62.7''",8.5cm,10.0cm,12.5cm,49,61.1'',-1.10%,-2.80%,1.20%,-3.10%,Singeing+Dryer(5box wash 85°C)+Black Padding(140GPL)+Sanforized
+X21157,,140G/L black padding,,11/16/2025,411,25111051,100y,"4200 X 39
+7oe(Badsha) X 10-40D(Nishat, Physical BCI) , 3/1 R.H.T",Black(9L) + PD#12A,Tusuka(Team B),57~58'',-(3~6)%,-(10~14)%,11.6 /oz,39,44,+5,"C:58.5''
+F:59.5''","C:58''
+F:59''",14.0cm,12.0cm,13.0cm,46,50.2'',-13.40%,-4.30%,1.50%,0.00%,Singeing+Dryer(5box Wash 85°C)+Black Padding / 140GPL+Sanforized
+X25371,,140G/L black padding,,11/26/2025,410,25111047,90y,"3888X42
+9ring(Milan) + 9siro slub(Nishat)(6:4) X 12(75D DTY) - 40D(Xuzhou) , 3/1 R.H.T",Black (9L) + PD,Winter Quilts/C&A,54~55'',-(3~6)%,,9.25~9.50 /oz,42,47,+5,"C:55.2''
+F:56.2''","C:54.5''
+F:55.5''",14.5cm,10.5cm,11.5cm,48,46.8'',-14.10%,-4.40%,1.80%,0.40%,Singeing+Dryer(5box Wash 85°C)+Black Padding / 140GPL+Sanforized
+X23250,PR105-08R12A,140gm/l black padding,12/8/2025,12/14/2025,108,2506494,112y,"4464X43
+9oe(Badsha) X 9oe(Badsha) , 3/1 R.H.T",Black + PD #12A,Warptex,63~64'',-(3~6)%,+/-(3~4)%,10.50 oz,43,49,+6,"C:62.2''
+F:63.2''","C:63''
+F:63.8''",16.5cm,15.5cm,14.0cm,48,62.8'',-0.30%,-1.30%,-1.84%,0.40%,Singeing+Dryer(5box Wash 85°C)+Black Padding / 140GPL+Sanforized
+X25385,RNS110-11R12D,210GPL / padding,,12/3/2025,303,25111080,100y,"4495X48
+8RING(Nishat,BCI)+7rsl(Q-476)Nishat(7:3)X12-40D(N.S, BCI)Nishat , 3/1 R.H.T",Black + PD#12D,Sainsbury Team B/Testing,60~61'',-(3~6)%,-(10~14)%,11.00 oz,48,54,+6,"C:61''
+F:62''","C:60.2''
+F:61.2''",16.0cm,13.0cm,12.5cm,54,52.8'',-12.20%,-0.80%,-1.35%,-0.44%,Singeing+Dryer(5box wash 85°C)+Black Padding/210GPL+Sanforized
+X25399,X24043,140G/L black padding,12/7/2025,12/14/2025,404,25121101,120y,"3906X43
+7ring(Nishat)+7rsl(Nishat)(6:4) X 10-70D(Nishat) , 3/1 R.H.T",Black(9L) + PD#12A,H&F,57~58%(Approx),-(3~6)%,,11.75 oz,43,49,+6,"C:58''
+F:59''","C:57''
+F:58''",16.5cm,13.0cm,11.5cm,48,48.6'',-3.50%,0.30%,-14.70%,-2.50%,Singeing+Dryer(5box 85°C wash/  30m/m)+Dryer(Black padding 140GPL )+Sanforized
+X24175,,Heat Setting+Padding,12/14/2025,12/22/2025,205,2510909,120y,"3564X42
+7ring(Badsha) X 8-40D(BCI, Nishat) , 3/1 R.H.T",Heat Setting+Padding,Mardy Jeans,58~59'',-(3~6)%,-(9~13)%,11.00 oz,42,47,+5,"C:59.2''
+F:60.5''","C:58.8''
+F:60''",16.0cm,13.0cm,12.0cm,48,52.2'',-11.20%,-1.40%,0.30%,-1.30%,Singeing+Heat Setting+Dryer(5box 85°C wash)+Padding+Sanforized
+X25206,,140GPL Black Padding,12/23/2025,12/28/2025,505,2507651,120y,"4968X52
+10oe(Badsha)+10rsl(yt-260)(7:3) X 60-40D(Nishat, N.S, BCI spandex) , 3/1 R.H.T",Black + PD#12B,Michel Kors,57~58'',-(3~6)%,-(13~17)%,9.75 oz,52,56,+4,"C:59.5''
+F:60.8''","C:58.7''
+F:59.7''",15.0cm,12.5cm,12.5cm,56,50.2'',-14.40%,-1.80%,1.50%,-1.30%,Singeing+Dryer(5box wash 85°C)+Padding(140g/l)+Sanforized
+X25421,X25217,140GPL Black padding,12/21/2025,12/28/2025,207,25121139,155y,"4176X46
+10rn(Ring span Nishat, Physical BCI)X16-40D(Nishat,Physcial Spandex), 3/1 R.H.T",Black(9L)+PD(#12A),Mardy jeans/Team B,52~53'',+/-(3~4)%,-(21~25)%,9.00 oz,46,50,+4,"C:53.8''
+F:54.8''","C:53''
+F:54''",13.5cm,11.5cm,10.0cm,50,42.7'',-19.40%,-3.00%,-0.40%,-2.20%,Singeing+Drye(85°C wash 5box)+Black Padding(140gpl)+Sanforized
+X26015,,140GPL Black padding,1/8/2026,1/15/2026,202,2601021,100y,"4464X48
+10rsl(TY-199)Nishat X10-40D(Nishat,Physical BCI), 3/1 R.H.T",Dark Indigo + PD(#6A),Natural Indigo/Connor,,,,11.00 oz,48,54,+6,"C:59''
+F:60''","C:58.5''
+F:59.5''",13.0cm,10.5cm,9.5cm,56,50.8'',-13.10%,-2.30%,-2.90%,0.60%,Singeing+Dryer(5box 85°C wash)+Padding(140g/l)+Sanforized
+X24202,,140GPL Black padding,,1/15/2026,110,2601026,100y,,,,,,,,40,46,+6,"C:64''
+F:64.7''","C:64''
+F:64.8''",12.5cm,13.0cm,11.0cm,46,64.1'',0.10%,-0.50%,-1.40%,0.70%,Singeing+Dryer(5box 85°C)+Black Padding(140gpl)+Sanforized
+X25209,,140GPL Black padding,,1/21/2026,617,2504317,102y,,,,,,,,39,44,+5,"C:63.5''
+F:64.5''","C:63.2''
+F:64.2''",16.0cm,14.0cm,13.0cm,45,63.8'',0.90%,-1.00%,-1.10%,-1.40%,Singeing+Dryer(5box 85°C)+Black Padding(140gpl)+Sanforized
+X22238,,140GPL Black padding,,1/21/2026,417,2601047,100y,,,,,,,,42,48,+6,"C:59.8''
+F:60.7''","C:60.2''
+F:61''",19.0cm,14.5cm,13.0cm,48,60.8'',0.90%,-1.50%,-0.70%,-0.90%,Singeing+Dryer(5box 85°C)+Black Padding(140gpl)+Sanforized

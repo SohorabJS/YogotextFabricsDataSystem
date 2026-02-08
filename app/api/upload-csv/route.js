@@ -39,19 +39,33 @@ function parseDateOrNull(v) {
   if (!v) return null;
   const s = String(v).trim();
   // Support both m/d/yyyy and dd/mm/yyyy formats
-  // Try to intelligently parse - if first number > 12, it's likely dd/mm/yyyy
   const m = s.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})$/);
   if (m) {
-    let day = parseInt(m[1], 10);
-    let month = parseInt(m[2], 10);
+    let first = parseInt(m[1], 10);
+    let second = parseInt(m[2], 10);
     const year = parseInt(m[3], 10);
     
-    // If day > 12, swap them (means it's dd/mm format)
-    if (day > 12 && month <= 12) {
-      [day, month] = [month, day];
-    }
-    // Otherwise assume m/d/yyyy format (month, day order)
+    // Determine if it's mm/dd or dd/mm format
+    // If first > 12, it must be dd/mm (day can't be > 12 as month)
+    // If second > 12, it must be mm/dd (month can't be > 12)
+    // If both <= 12, assume mm/dd (most common in US/Western context)
+    let month, day;
     
+    if (first > 12) {
+      // Must be dd/mm format
+      day = first;
+      month = second;
+    } else if (second > 12) {
+      // Must be mm/dd format
+      month = first;
+      day = second;
+    } else {
+      // Both are valid - assume mm/dd format (US standard)
+      month = first;
+      day = second;
+    }
+    
+    // Validate the date
     const d = new Date(Date.UTC(year, month - 1, day));
     return isNaN(d.getTime()) ? null : d;
   }

@@ -8,12 +8,10 @@ const heatSettingSampleSchema = new mongoose.Schema(
     sampleCode: {
       type: String,
       required: true,
-      trim: true,
     },
 
     sampleItemCode: {
       type: String,
-      trim: true,
     },
 
     construction: {

@@ -121,3 +121,11 @@ customerRequiredWidth is a specific field. instead of exact value storing in thi
 →Occuring another issue with those field sampleIssueData and finishingData. it isnt being setting exact value.
 
 accually what are the value in the csv file. Not being set exact value in the UI. also those value are not store as original value. check the csv file field.lets fix.
+
+
+
+
+lets create padding sample backend and UI code
+First Build Data Model of Padding sample data. go to the padding sample data csv file in the public dicrectory('PaddingSample' datas are store in mongdb database in the current collection) and check the header of the every column. then create data model.check every issue and finishing date.
+keep the padding sample backend logic and code inside the samplesData.
+Last build UI in the where having the padding sample data UI(keep every field carefully). lets go.
